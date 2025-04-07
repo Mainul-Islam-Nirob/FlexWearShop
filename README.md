@@ -1,0 +1,3 @@
+# FlexWearShop
+
+This is an e-commerce site for customizeable t-shirt, hoodies, jersey, sneakers...
