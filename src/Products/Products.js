@@ -1,90 +1,90 @@
 // // T-Shirt Images
-// import tshirt1 from '../assets/images/tshirt-1.jpg'
-// import tshirt2 from '../assets/images/tshirt-2.jpg'
-// import tshirt3 from '../assets/images/tshirt-3.jpg'
-// import tshirt4 from '../assets/images/tshirt-4.jpg'
-// import tshirt5 from '../assets/images/tshirt-5.jpg'
-// import tshirt6 from '../assets/images/tshirt-6.jpg'
-// import tshirt7 from '../assets/images/tshirt-7.jpg'
-// import tshirt8 from '../assets/images/tshirt-8.jpg'
-// import tshirt9 from '../assets/images/tshirt-9.jpg'
-// import tshirt10 from '../assets/images/tshirt-10.jpg'
-// import tshirt11 from '../assets/images/tshirt-11.jpg'
-// import tshirt12 from '../assets/images/tshirt-12.jpg'
-// import tshirt13 from '../assets/images/tshirt-13.jpg'
-// import tshirt14 from '../assets/images/tshirt-14.jpg'
-// import tshirt15 from '../assets/images/tshirt-15.jpg'
-// import tshirt16 from '../assets/images/tshirt-16.jpg'
-// import tshirt17 from '../assets/images/tshirt-17.jpg'
-// import tshirt18 from '../assets/images/tshirt-18.jpg'
-// import tshirt19 from '../assets/images/tshirt-19.jpg'
-// import tshirt20 from '../assets/images/tshirt-20.jpg'
+import tshirt1 from '../assets/images/tshirt-1.webp'
+import tshirt2 from '../assets/images/tshirt-2.webp'
+import tshirt3 from '../assets/images/tshirt-3.webp'
+import tshirt4 from '../assets/images/tshirt-4.webp'
+import tshirt5 from '../assets/images/tshirt-5.webp'
+import tshirt6 from '../assets/images/tshirt-6.webp'
+import tshirt7 from '../assets/images/tshirt-7.webp'
+import tshirt8 from '../assets/images/tshirt-8.webp'
+import tshirt9 from '../assets/images/tshirt-9.webp'
+import tshirt10 from '../assets/images/tshirt-10.webp'
+import tshirt11 from '../assets/images/tshirt-11.webp'
+import tshirt12 from '../assets/images/tshirt-12.webp'
+import tshirt13 from '../assets/images/tshirt-13.webp'
+import tshirt14 from '../assets/images/tshirt-14.webp'
+import tshirt15 from '../assets/images/tshirt-15.webp'
+import tshirt16 from '../assets/images/tshirt-16.webp'
+import tshirt17 from '../assets/images/tshirt-17.webp'
+import tshirt18 from '../assets/images/tshirt-18.webp'
+import tshirt19 from '../assets/images/tshirt-19.webp'
+import tshirt20 from '../assets/images/tshirt-20.webp'
 
 // // Hoodie Images
-// import hoodie1 from '../assets/images/hoodie-1.jpg'
-// import hoodie2 from '../assets/images/hoodie-2.jpg'
-// import hoodie3 from '../assets/images/hoodie-3.jpg'
-// import hoodie4 from '../assets/images/hoodie-4.jpg'
-// import hoodie5 from '../assets/images/hoodie-5.jpg'
-// import hoodie6 from '../assets/images/hoodie-6.jpg'
-// import hoodie7 from '../assets/images/hoodie-7.jpg'
-// import hoodie8 from '../assets/images/hoodie-8.jpg'
-// import hoodie9 from '../assets/images/hoodie-9.jpg'
-// import hoodie10 from '../assets/images/hoodie-10.jpg'
-// import hoodie11 from '../assets/images/hoodie-11.jpg'
-// import hoodie12 from '../assets/images/hoodie-12.jpg'
-// import hoodie13 from '../assets/images/hoodie-13.jpg'
-// import hoodie14 from '../assets/images/hoodie-14.jpg'
-// import hoodie15 from '../assets/images/hoodie-15.jpg'
-// import hoodie16 from '../assets/images/hoodie-16.jpg'
-// import hoodie17 from '../assets/images/hoodie-17.jpg'
-// import hoodie18 from '../assets/images/hoodie-18.jpg'
-// import hoodie19 from '../assets/images/hoodie-19.jpg'
-// import hoodie20 from '../assets/images/hoodie-20.jpg'
+// import hoodie1 from '../assets/images/hoodie-1.webp'
+// import hoodie2 from '../assets/images/hoodie-2.webp'
+// import hoodie3 from '../assets/images/hoodie-3.webp'
+// import hoodie4 from '../assets/images/hoodie-4.webp'
+// import hoodie5 from '../assets/images/hoodie-5.webp'
+// import hoodie6 from '../assets/images/hoodie-6.webp'
+// import hoodie7 from '../assets/images/hoodie-7.webp'
+// import hoodie8 from '../assets/images/hoodie-8.webp'
+// import hoodie9 from '../assets/images/hoodie-9.webp'
+// import hoodie10 from '../assets/images/hoodie-10.webp'
+// import hoodie11 from '../assets/images/hoodie-11.webp'
+// import hoodie12 from '../assets/images/hoodie-12.webp'
+// import hoodie13 from '../assets/images/hoodie-13.webp'
+// import hoodie14 from '../assets/images/hoodie-14.webp'
+// import hoodie15 from '../assets/images/hoodie-15.webp'
+// import hoodie16 from '../assets/images/hoodie-16.webp'
+// import hoodie17 from '../assets/images/hoodie-17.webp'
+// import hoodie18 from '../assets/images/hoodie-18.webp'
+// import hoodie19 from '../assets/images/hoodie-19.webp'
+// import hoodie20 from '../assets/images/hoodie-20.webp'
 
 // // Custom Jersey Images
-// import customJersey1 from '../assets/images/custom-jersey-1.jpg'
-// import customJersey2 from '../assets/images/custom-jersey-2.jpg'
-// import customJersey3 from '../assets/images/custom-jersey-3.jpg'
-// import customJersey4 from '../assets/images/custom-jersey-4.jpg'
-// import customJersey5 from '../assets/images/custom-jersey-5.jpg'
-// import customJersey6 from '../assets/images/custom-jersey-6.jpg'
-// import customJersey7 from '../assets/images/custom-jersey-7.jpg'
-// import customJersey8 from '../assets/images/custom-jersey-8.jpg'
-// import customJersey9 from '../assets/images/custom-jersey-9.jpg'
-// import customJersey10 from '../assets/images/custom-jersey-10.jpg'
-// import customJersey11 from '../assets/images/custom-jersey-11.jpg'
-// import customJersey12 from '../assets/images/custom-jersey-12.jpg'
-// import customJersey13 from '../assets/images/custom-jersey-13.jpg'
-// import customJersey14 from '../assets/images/custom-jersey-14.jpg'
-// import customJersey15 from '../assets/images/custom-jersey-15.jpg'
-// import customJersey16 from '../assets/images/custom-jersey-16.jpg'
-// import customJersey17 from '../assets/images/custom-jersey-17.jpg'
-// import customJersey18 from '../assets/images/custom-jersey-18.jpg'
-// import customJersey19 from '../assets/images/custom-jersey-19.jpg'
-// import customJersey20 from '../assets/images/custom-jersey-20.jpg'
+// import customJersey1 from '../assets/images/custom-jersey-1.webp'
+// import customJersey2 from '../assets/images/custom-jersey-2.webp'
+// import customJersey3 from '../assets/images/custom-jersey-3.webp'
+// import customJersey4 from '../assets/images/custom-jersey-4.webp'
+// import customJersey5 from '../assets/images/custom-jersey-5.webp'
+// import customJersey6 from '../assets/images/custom-jersey-6.webp'
+// import customJersey7 from '../assets/images/custom-jersey-7.webp'
+// import customJersey8 from '../assets/images/custom-jersey-8.webp'
+// import customJersey9 from '../assets/images/custom-jersey-9.webp'
+// import customJersey10 from '../assets/images/custom-jersey-10.webp'
+// import customJersey11 from '../assets/images/custom-jersey-11.webp'
+// import customJersey12 from '../assets/images/custom-jersey-12.webp'
+// import customJersey13 from '../assets/images/custom-jersey-13.webp'
+// import customJersey14 from '../assets/images/custom-jersey-14.webp'
+// import customJersey15 from '../assets/images/custom-jersey-15.webp'
+// import customJersey16 from '../assets/images/custom-jersey-16.webp'
+// import customJersey17 from '../assets/images/custom-jersey-17.webp'
+// import customJersey18 from '../assets/images/custom-jersey-18.webp'
+// import customJersey19 from '../assets/images/custom-jersey-19.webp'
+// import customJersey20 from '../assets/images/custom-jersey-20.webp'
 
 // // Club Jersey Images
-// import clubJersey1 from '../assets/images/club-jersey-1.jpg'
-// import clubJersey2 from '../assets/images/club-jersey-2.jpg'
-// import clubJersey3 from '../assets/images/club-jersey-3.jpg'
-// import clubJersey4 from '../assets/images/club-jersey-4.jpg'
-// import clubJersey5 from '../assets/images/club-jersey-5.jpg'
-// import clubJersey6 from '../assets/images/club-jersey-6.jpg'
-// import clubJersey7 from '../assets/images/club-jersey-7.jpg'
-// import clubJersey8 from '../assets/images/club-jersey-8.jpg'
-// import clubJersey9 from '../assets/images/club-jersey-9.jpg'
-// import clubJersey10 from '../assets/images/club-jersey-10.jpg'
-// import clubJersey11 from '../assets/images/club-jersey-11.jpg'
-// import clubJersey12 from '../assets/images/club-jersey-12.jpg'
-// import clubJersey13 from '../assets/images/club-jersey-13.jpg'
-// import clubJersey14 from '../assets/images/club-jersey-14.jpg'
-// import clubJersey15 from '../assets/images/club-jersey-15.jpg'
-// import clubJersey16 from '../assets/images/club-jersey-16.jpg'
-// import clubJersey17 from '../assets/images/club-jersey-17.jpg'
-// import clubJersey18 from '../assets/images/club-jersey-18.jpg'
-// import clubJersey19 from '../assets/images/club-jersey-19.jpg'
-// import clubJersey20 from '../assets/images/club-jersey-20.jpg'
+// import clubJersey1 from '../assets/images/club-jersey-1.webp'
+// import clubJersey2 from '../assets/images/club-jersey-2.webp'
+// import clubJersey3 from '../assets/images/club-jersey-3.webp'
+// import clubJersey4 from '../assets/images/club-jersey-4.webp'
+// import clubJersey5 from '../assets/images/club-jersey-5.webp'
+// import clubJersey6 from '../assets/images/club-jersey-6.webp'
+// import clubJersey7 from '../assets/images/club-jersey-7.webp'
+// import clubJersey8 from '../assets/images/club-jersey-8.webp'
+// import clubJersey9 from '../assets/images/club-jersey-9.webp'
+// import clubJersey10 from '../assets/images/club-jersey-10.webp'
+// import clubJersey11 from '../assets/images/club-jersey-11.webp'
+// import clubJersey12 from '../assets/images/club-jersey-12.webp'
+// import clubJersey13 from '../assets/images/club-jersey-13.webp'
+// import clubJersey14 from '../assets/images/club-jersey-14.webp'
+// import clubJersey15 from '../assets/images/club-jersey-15.webp'
+// import clubJersey16 from '../assets/images/club-jersey-16.webp'
+// import clubJersey17 from '../assets/images/club-jersey-17.webp'
+// import clubJersey18 from '../assets/images/club-jersey-18.webp'
+// import clubJersey19 from '../assets/images/club-jersey-19.webp'
+// import clubJersey20 from '../assets/images/club-jersey-20.webp'
 
 // // Sneaker Images
 import sneaker1 from '../assets/images/sneaker-1.webp'
@@ -110,271 +110,271 @@ import sneaker20 from '../assets/images/sneaker-20.webp'
 
 
 // // Eyewear Images
-// import eyewear1 from '../assets/images/eyewear-1.jpg';
-// import eyewear2 from '../assets/images/eyewear-2.jpg';
-// import eyewear3 from '../assets/images/eyewear-3.jpg';
-// import eyewear4 from '../assets/images/eyewear-4.jpg';
-// import eyewear5 from '../assets/images/eyewear-5.jpg';
-// import eyewear6 from '../assets/images/eyewear-6.jpg';
-// import eyewear7 from '../assets/images/eyewear-7.jpg';
-// import eyewear8 from '../assets/images/eyewear-8.jpg';
-// import eyewear9 from '../assets/images/eyewear-9.jpg';
-// import eyewear10 from '../assets/images/eyewear-10.jpg';
-// import eyewear11 from '../assets/images/eyewear-11.jpg';
-// import eyewear12 from '../assets/images/eyewear-12.jpg';
-// import eyewear13 from '../assets/images/eyewear-13.jpg';
-// import eyewear14 from '../assets/images/eyewear-14.jpg';
-// import eyewear15 from '../assets/images/eyewear-15.jpg';
-// import eyewear16 from '../assets/images/eyewear-16.jpg';
-// import eyewear17 from '../assets/images/eyewear-17.jpg';
-// import eyewear18 from '../assets/images/eyewear-18.jpg';
-// import eyewear19 from '../assets/images/eyewear-19.jpg';
-// import eyewear20 from '../assets/images/eyewear-20.jpg';
+// import eyewear1 from '../assets/images/eyewear-1.webp';
+// import eyewear2 from '../assets/images/eyewear-2.webp';
+// import eyewear3 from '../assets/images/eyewear-3.webp';
+// import eyewear4 from '../assets/images/eyewear-4.webp';
+// import eyewear5 from '../assets/images/eyewear-5.webp';
+// import eyewear6 from '../assets/images/eyewear-6.webp';
+// import eyewear7 from '../assets/images/eyewear-7.webp';
+// import eyewear8 from '../assets/images/eyewear-8.webp';
+// import eyewear9 from '../assets/images/eyewear-9.webp';
+// import eyewear10 from '../assets/images/eyewear-10.webp';
+// import eyewear11 from '../assets/images/eyewear-11.webp';
+// import eyewear12 from '../assets/images/eyewear-12.webp';
+// import eyewear13 from '../assets/images/eyewear-13.webp';
+// import eyewear14 from '../assets/images/eyewear-14.webp';
+// import eyewear15 from '../assets/images/eyewear-15.webp';
+// import eyewear16 from '../assets/images/eyewear-16.webp';
+// import eyewear17 from '../assets/images/eyewear-17.webp';
+// import eyewear18 from '../assets/images/eyewear-18.webp';
+// import eyewear19 from '../assets/images/eyewear-19.webp';
+// import eyewear20 from '../assets/images/eyewear-20.webp';
 
 
 // // Product data
 const products = [
 //   // T-Shirts
-//   {
-//     id: 1,
-//     name: 'Classic White T-Shirt',
-//     description: 'A clean white t-shirt with a snug fit and breathable fabric.',
-//     category: 'tshirt',
-//     price: 450,
-//     image: tshirt1,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['White', 'Black', 'Grey']
-//     }
-//   },
-//   {
-//     id: 2,
-//     name: 'Graphic Street Tee',
-//     description: 'Urban-inspired t-shirt with a bold street art graphic.',
-//     category: 'tshirt',
-//     price: 650,
-//     image: tshirt2,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['White', 'Black']
-//     }
-//   },
-//   {
-//     id: 3,
-//     name: 'Vintage Logo Tee',
-//     description: 'A soft cotton t-shirt with a retro logo on the front.',
-//     category: 'tshirt',
-//     price: 550,
-//     image: tshirt3,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Red', 'Blue', 'Black']
-//     }
-//   },
-//   {
-//     id: 4,
-//     name: 'Premium Cotton Tee',
-//     description: 'High-quality cotton for a more comfortable fit and feel.',
-//     category: 'tshirt',
-//     price: 700,
-//     image: tshirt4,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['White', 'Black', 'Grey', 'Navy']
-//     }
-//   },
-//   {
-//     id: 5,
-//     name: 'Graphic Print T-Shirt',
-//     description: 'Show off your style with a bold graphic print on the front.',
-//     category: 'tshirt',
-//     price: 600,
-//     image: tshirt5,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Black', 'White', 'Green']
-//     }
-//   },
-//   {
-//     id: 6,
-//     name: 'Muscle Fit Tee',
-//     description: 'A fitted t-shirt designed for a more athletic build.',
-//     category: 'tshirt',
-//     price: 650,
-//     image: tshirt6,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Black', 'Charcoal']
-//     }
-//   },
-//   {
-//     id: 7,
-//     name: 'Urban Skater Tee',
-//     description: 'A laid-back t-shirt with a skateboard-inspired print.',
-//     category: 'tshirt',
-//     price: 450,
-//     image: tshirt7,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Black', 'Blue']
-//     }
-//   },
-//   {
-//     id: 8,
-//     name: 'Oversized Box Tee',
-//     description: 'A trendy oversized tee for a relaxed, modern fit.',
-//     category: 'tshirt',
-//     price: 700,
-//     image: tshirt8,
-//     customization: {
-//       size: ['L', 'XL'],
-//       color: ['White', 'Black']
-//     }
-//   },
-//   {
-//     id: 9,
-//     name: 'Tropical Print Tee',
-//     description: 'A fun tropical print t-shirt for those sunny days.',
-//     category: 'tshirt',
-//     price: 550,
-//     image: tshirt9,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Blue', 'Green']
-//     }
-//   },
-//   {
-//     id: 10,
-//     name: 'Stripe Pattern Tee',
-//     description: 'A classic stripe pattern that never goes out of style.',
-//     category: 'tshirt',
-//     price: 600,
-//     image: tshirt10,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['White/Blue', 'Black/Red']
-//     }
-//   },
-//   {
-//     id: 11,
-//     name: 'Comfort Fit Tee',
-//     description: 'A t-shirt designed with maximum comfort and freedom.',
-//     category: 'tshirt',
-//     price: 500,
-//     image: tshirt11,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Light Grey', 'Blue']
-//     }
-//   },
-//   {
-//     id: 12,
-//     name: 'Pocket Tee',
-//     description: 'A simple tee with a small pocket for a subtle look.',
-//     category: 'tshirt',
-//     price: 550,
-//     image: tshirt12,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['Grey', 'Navy']
-//     }
-//   },
-//   {
-//     id: 13,
-//     name: 'Minimalist Black Tee',
-//     description: 'A sleek black t-shirt with minimal branding.',
-//     category: 'tshirt',
-//     price: 600,
-//     image: tshirt13,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Black', 'White']
-//     }
-//   },
-//   {
-//     id: 14,
-//     name: 'Summer Vibes Tee',
-//     description: 'A vibrant, summer-ready t-shirt with a positive message.',
-//     category: 'tshirt',
-//     price: 550,
-//     image: tshirt14,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Yellow', 'Pink', 'Blue']
-//     }
-//   },
-//   {
-//     id: 15,
-//     name: 'Embroidered Logo Tee',
-//     description: 'Subtle and stylish, with an embroidered logo on the chest.',
-//     category: 'tshirt',
-//     price: 650,
-//     image: tshirt15,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Grey', 'Black']
-//     }
-//   },
-//   {
-//     id: 16,
-//     name: 'Retro Surf Tee',
-//     description: 'Channel retro beach vibes with a bold surf graphic.',
-//     category: 'tshirt',
-//     price: 500,
-//     image: tshirt16,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Blue', 'Orange']
-//     }
-//   },
-//   {
-//     id: 17,
-//     name: 'Tie-Dye Tee',
-//     description: 'A playful tie-dye t-shirt for a pop of color.',
-//     category: 'tshirt',
-//     price: 650,
-//     image: tshirt17,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Multi-colored', 'Purple/Yellow']
-//     }
-//   },
-//   {
-//     id: 18,
-//     name: 'Wildflower Tee',
-//     description: 'Nature-inspired print with a beautiful wildflower design.',
-//     category: 'tshirt',
-//     price: 550,
-//     image: tshirt18,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['White', 'Blue']
-//     }
-//   },
-//   {
-//     id: 19,
-//     name: 'Mountain Adventure Tee',
-//     description: 'Adventure awaits with this outdoor-themed graphic tee.',
-//     category: 'tshirt',
-//     price: 600,
-//     image: tshirt19,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Grey', 'Green']
-//     }
-//   },
-//   {
-//     id: 20,
-//     name: 'Sunset Beach Tee',
-//     description: 'A soft tee featuring a serene beach sunset print.',
-//     category: 'tshirt',
-//     price: 500,
-//     image: tshirt20,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Orange', 'Pink']
-//     }
-//   },
+  {
+    id: 1,
+    name: 'Classic White T-Shirt',
+    description: 'A clean white t-shirt with a snug fit and breathable fabric.',
+    category: 'tshirt',
+    price: 450,
+    image: tshirt1,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['White', 'Black', 'Grey']
+    }
+  },
+  {
+    id: 2,
+    name: 'Graphic Street Tee',
+    description: 'Urban-inspired t-shirt with a bold street art graphic.',
+    category: 'tshirt',
+    price: 650,
+    image: tshirt2,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['White', 'Black']
+    }
+  },
+  {
+    id: 3,
+    name: 'Vintage Logo Tee',
+    description: 'A soft cotton t-shirt with a retro logo on the front.',
+    category: 'tshirt',
+    price: 550,
+    image: tshirt3,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Red', 'Blue', 'Black']
+    }
+  },
+  {
+    id: 4,
+    name: 'Premium Cotton Tee',
+    description: 'High-quality cotton for a more comfortable fit and feel.',
+    category: 'tshirt',
+    price: 700,
+    image: tshirt4,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['White', 'Black', 'Grey', 'Navy']
+    }
+  },
+  {
+    id: 5,
+    name: 'Graphic Print T-Shirt',
+    description: 'Show off your style with a bold graphic print on the front.',
+    category: 'tshirt',
+    price: 600,
+    image: tshirt5,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Black', 'White', 'Green']
+    }
+  },
+  {
+    id: 6,
+    name: 'Muscle Fit Tee',
+    description: 'A fitted t-shirt designed for a more athletic build.',
+    category: 'tshirt',
+    price: 650,
+    image: tshirt6,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Black', 'Charcoal']
+    }
+  },
+  {
+    id: 7,
+    name: 'Urban Skater Tee',
+    description: 'A laid-back t-shirt with a skateboard-inspired print.',
+    category: 'tshirt',
+    price: 450,
+    image: tshirt7,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Black', 'Blue']
+    }
+  },
+  {
+    id: 8,
+    name: 'Oversized Box Tee',
+    description: 'A trendy oversized tee for a relaxed, modern fit.',
+    category: 'tshirt',
+    price: 700,
+    image: tshirt8,
+    customization: {
+      size: ['L', 'XL'],
+      color: ['White', 'Black']
+    }
+  },
+  {
+    id: 9,
+    name: 'Tropical Print Tee',
+    description: 'A fun tropical print t-shirt for those sunny days.',
+    category: 'tshirt',
+    price: 550,
+    image: tshirt9,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Blue', 'Green']
+    }
+  },
+  {
+    id: 10,
+    name: 'Stripe Pattern Tee',
+    description: 'A classic stripe pattern that never goes out of style.',
+    category: 'tshirt',
+    price: 600,
+    image: tshirt10,
+    customization: {
+      size: ['M', 'L'],
+      color: ['White/Blue', 'Black/Red']
+    }
+  },
+  {
+    id: 11,
+    name: 'Comfort Fit Tee',
+    description: 'A t-shirt designed with maximum comfort and freedom.',
+    category: 'tshirt',
+    price: 500,
+    image: tshirt11,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Light Grey', 'Blue']
+    }
+  },
+  {
+    id: 12,
+    name: 'Pocket Tee',
+    description: 'A simple tee with a small pocket for a subtle look.',
+    category: 'tshirt',
+    price: 550,
+    image: tshirt12,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Grey', 'Navy']
+    }
+  },
+  {
+    id: 13,
+    name: 'Minimalist Black Tee',
+    description: 'A sleek black t-shirt with minimal branding.',
+    category: 'tshirt',
+    price: 600,
+    image: tshirt13,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Black', 'White']
+    }
+  },
+  {
+    id: 14,
+    name: 'Summer Vibes Tee',
+    description: 'A vibrant, summer-ready t-shirt with a positive message.',
+    category: 'tshirt',
+    price: 550,
+    image: tshirt14,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Yellow', 'Pink', 'Blue']
+    }
+  },
+  {
+    id: 15,
+    name: 'Embroidered Logo Tee',
+    description: 'Subtle and stylish, with an embroidered logo on the chest.',
+    category: 'tshirt',
+    price: 650,
+    image: tshirt15,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Grey', 'Black']
+    }
+  },
+  {
+    id: 16,
+    name: 'Retro Surf Tee',
+    description: 'Channel retro beach vibes with a bold surf graphic.',
+    category: 'tshirt',
+    price: 500,
+    image: tshirt16,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Blue', 'Orange']
+    }
+  },
+  {
+    id: 17,
+    name: 'Tie-Dye Tee',
+    description: 'A playful tie-dye t-shirt for a pop of color.',
+    category: 'tshirt',
+    price: 650,
+    image: tshirt17,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Multi-colored', 'Purple/Yellow']
+    }
+  },
+  {
+    id: 18,
+    name: 'Wildflower Tee',
+    description: 'Nature-inspired print with a beautiful wildflower design.',
+    category: 'tshirt',
+    price: 550,
+    image: tshirt18,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['White', 'Blue']
+    }
+  },
+  {
+    id: 19,
+    name: 'Mountain Adventure Tee',
+    description: 'Adventure awaits with this outdoor-themed graphic tee.',
+    category: 'tshirt',
+    price: 600,
+    image: tshirt19,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Grey', 'Green']
+    }
+  },
+  {
+    id: 20,
+    name: 'Sunset Beach Tee',
+    description: 'A soft tee featuring a serene beach sunset print.',
+    category: 'tshirt',
+    price: 500,
+    image: tshirt20,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Orange', 'Pink']
+    }
+  },
 
 //   // Hoodies
 //   {
