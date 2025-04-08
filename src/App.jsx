@@ -1,14 +1,17 @@
-import './App.css'
-import Shop from './components/Shop'
+import './App.css';
+import Navbar from './components/Navbar';
+import Shop from './components/Shop';
 
 function App() {
-
   return (
-    <>
-      <h1>FlexWearShop</h1>       
-      <Shop />
-    </>
-  )
+    <div className="bg-light min-h-screen text-gray-800 font-sans">
+      <Navbar />
+      <main className="pt-6">
+        <Shop />
+      </main>
+    </div>
+  );
 }
+
 
 export default App
