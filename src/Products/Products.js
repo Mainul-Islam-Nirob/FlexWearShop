@@ -21,82 +21,82 @@ import tshirt19 from '../assets/images/tshirt-19.webp'
 import tshirt20 from '../assets/images/tshirt-20.webp'
 
 // // Hoodie Images
-// import hoodie1 from '../assets/images/hoodie-1.webp'
-// import hoodie2 from '../assets/images/hoodie-2.webp'
-// import hoodie3 from '../assets/images/hoodie-3.webp'
-// import hoodie4 from '../assets/images/hoodie-4.webp'
-// import hoodie5 from '../assets/images/hoodie-5.webp'
-// import hoodie6 from '../assets/images/hoodie-6.webp'
-// import hoodie7 from '../assets/images/hoodie-7.webp'
-// import hoodie8 from '../assets/images/hoodie-8.webp'
-// import hoodie9 from '../assets/images/hoodie-9.webp'
-// import hoodie10 from '../assets/images/hoodie-10.webp'
-// import hoodie11 from '../assets/images/hoodie-11.webp'
-// import hoodie12 from '../assets/images/hoodie-12.webp'
-// import hoodie13 from '../assets/images/hoodie-13.webp'
-// import hoodie14 from '../assets/images/hoodie-14.webp'
-// import hoodie15 from '../assets/images/hoodie-15.webp'
-// import hoodie16 from '../assets/images/hoodie-16.webp'
-// import hoodie17 from '../assets/images/hoodie-17.webp'
-// import hoodie18 from '../assets/images/hoodie-18.webp'
-// import hoodie19 from '../assets/images/hoodie-19.webp'
-// import hoodie20 from '../assets/images/hoodie-20.webp'
+import hoodie1 from '../assets/images/hoodie-1.webp'
+import hoodie2 from '../assets/images/hoodie-2.webp'
+import hoodie3 from '../assets/images/hoodie-3.webp'
+import hoodie4 from '../assets/images/hoodie-4.webp'
+import hoodie5 from '../assets/images/hoodie-5.webp'
+import hoodie6 from '../assets/images/hoodie-6.webp'
+import hoodie7 from '../assets/images/hoodie-7.webp'
+import hoodie8 from '../assets/images/hoodie-8.webp'
+import hoodie9 from '../assets/images/hoodie-9.webp'
+import hoodie10 from '../assets/images/hoodie-10.webp'
+import hoodie11 from '../assets/images/hoodie-11.webp'
+import hoodie12 from '../assets/images/hoodie-12.webp'
+import hoodie13 from '../assets/images/hoodie-13.webp'
+import hoodie14 from '../assets/images/hoodie-14.webp'
+import hoodie15 from '../assets/images/hoodie-15.webp'
+import hoodie16 from '../assets/images/hoodie-16.webp'
+import hoodie17 from '../assets/images/hoodie-17.webp'
+import hoodie18 from '../assets/images/hoodie-18.webp'
+import hoodie19 from '../assets/images/hoodie-19.webp'
+import hoodie20 from '../assets/images/hoodie-20.webp'
 
 // // Custom Jersey Images
-// import customJersey1 from '../assets/images/custom-jersey-1.webp'
-// import customJersey2 from '../assets/images/custom-jersey-2.webp'
-// import customJersey3 from '../assets/images/custom-jersey-3.webp'
-// import customJersey4 from '../assets/images/custom-jersey-4.webp'
-// import customJersey5 from '../assets/images/custom-jersey-5.webp'
-// import customJersey6 from '../assets/images/custom-jersey-6.webp'
-// import customJersey7 from '../assets/images/custom-jersey-7.webp'
-// import customJersey8 from '../assets/images/custom-jersey-8.webp'
-// import customJersey9 from '../assets/images/custom-jersey-9.webp'
-// import customJersey10 from '../assets/images/custom-jersey-10.webp'
-// import customJersey11 from '../assets/images/custom-jersey-11.webp'
-// import customJersey12 from '../assets/images/custom-jersey-12.webp'
-// import customJersey13 from '../assets/images/custom-jersey-13.webp'
-// import customJersey14 from '../assets/images/custom-jersey-14.webp'
-// import customJersey15 from '../assets/images/custom-jersey-15.webp'
-// import customJersey16 from '../assets/images/custom-jersey-16.webp'
-// import customJersey17 from '../assets/images/custom-jersey-17.webp'
-// import customJersey18 from '../assets/images/custom-jersey-18.webp'
-// import customJersey19 from '../assets/images/custom-jersey-19.webp'
-// import customJersey20 from '../assets/images/custom-jersey-20.webp'
+import customJersey1 from '../assets/images/custom-jersey-1.webp'
+import customJersey2 from '../assets/images/custom-jersey-2.webp'
+import customJersey3 from '../assets/images/custom-jersey-3.webp'
+import customJersey4 from '../assets/images/custom-jersey-4.webp'
+import customJersey5 from '../assets/images/custom-jersey-5.webp'
+import customJersey6 from '../assets/images/custom-jersey-6.webp'
+import customJersey7 from '../assets/images/custom-jersey-7.webp'
+import customJersey8 from '../assets/images/custom-jersey-8.webp'
+import customJersey9 from '../assets/images/custom-jersey-9.webp'
+import customJersey10 from '../assets/images/custom-jersey-10.webp'
+import customJersey11 from '../assets/images/custom-jersey-11.webp'
+import customJersey12 from '../assets/images/custom-jersey-12.webp'
+import customJersey13 from '../assets/images/custom-jersey-13.webp'
+import customJersey14 from '../assets/images/custom-jersey-14.webp'
+import customJersey15 from '../assets/images/custom-jersey-15.webp'
+import customJersey16 from '../assets/images/custom-jersey-16.webp'
+import customJersey17 from '../assets/images/custom-jersey-17.webp'
+import customJersey18 from '../assets/images/custom-jersey-18.webp'
+import customJersey19 from '../assets/images/custom-jersey-19.webp'
+import customJersey20 from '../assets/images/custom-jersey-20.webp'
 
 // // Club Jersey Images
-// import clubJersey1 from '../assets/images/club-jersey-1.webp'
-// import clubJersey2 from '../assets/images/club-jersey-2.webp'
-// import clubJersey3 from '../assets/images/club-jersey-3.webp'
-// import clubJersey4 from '../assets/images/club-jersey-4.webp'
-// import clubJersey5 from '../assets/images/club-jersey-5.webp'
-// import clubJersey6 from '../assets/images/club-jersey-6.webp'
-// import clubJersey7 from '../assets/images/club-jersey-7.webp'
-// import clubJersey8 from '../assets/images/club-jersey-8.webp'
-// import clubJersey9 from '../assets/images/club-jersey-9.webp'
-// import clubJersey10 from '../assets/images/club-jersey-10.webp'
-// import clubJersey11 from '../assets/images/club-jersey-11.webp'
-// import clubJersey12 from '../assets/images/club-jersey-12.webp'
-// import clubJersey13 from '../assets/images/club-jersey-13.webp'
-// import clubJersey14 from '../assets/images/club-jersey-14.webp'
-// import clubJersey15 from '../assets/images/club-jersey-15.webp'
-// import clubJersey16 from '../assets/images/club-jersey-16.webp'
-// import clubJersey17 from '../assets/images/club-jersey-17.webp'
-// import clubJersey18 from '../assets/images/club-jersey-18.webp'
-// import clubJersey19 from '../assets/images/club-jersey-19.webp'
-// import clubJersey20 from '../assets/images/club-jersey-20.webp'
+import clubJersey1 from '../assets/images/club-jersey-1.jpg'
+import clubJersey2 from '../assets/images/club-jersey-2.jpg'
+import clubJersey3 from '../assets/images/club-jersey-3.jpg'
+import clubJersey4 from '../assets/images/club-jersey-4.jpg'
+import clubJersey5 from '../assets/images/club-jersey-5.jpg'
+import clubJersey6 from '../assets/images/club-jersey-6.jpg'
+import clubJersey7 from '../assets/images/club-jersey-7.jpg'
+import clubJersey8 from '../assets/images/club-jersey-8.webp'
+import clubJersey9 from '../assets/images/club-jersey-9.webp'
+import clubJersey10 from '../assets/images/club-jersey-10.webp'
+import clubJersey11 from '../assets/images/club-jersey-11.webp'
+import clubJersey12 from '../assets/images/club-jersey-12.webp'
+import clubJersey13 from '../assets/images/club-jersey-13.webp'
+import clubJersey14 from '../assets/images/club-jersey-14.webp'
+import clubJersey15 from '../assets/images/club-jersey-15.webp'
+import clubJersey16 from '../assets/images/club-jersey-16.webp'
+import clubJersey17 from '../assets/images/club-jersey-17.webp'
+import clubJersey18 from '../assets/images/club-jersey-18.webp'
+import clubJersey19 from '../assets/images/club-jersey-19.webp'
+import clubJersey20 from '../assets/images/club-jersey-20.webp'
 
 // // Sneaker Images
-import sneaker1 from '../assets/images/sneaker-1.webp'
-import sneaker2 from '../assets/images/sneaker-2.webp'
-import sneaker3 from '../assets/images/sneaker-3.webp'
-import sneaker4 from '../assets/images/sneaker-4.webp'
-import sneaker5 from '../assets/images/sneaker-5.webp'
-import sneaker6 from '../assets/images/sneaker-6.webp'
-import sneaker7 from '../assets/images/sneaker-7.webp'
-import sneaker8 from '../assets/images/sneaker-8.webp'
-import sneaker9 from '../assets/images/sneaker-9.webp'
-import sneaker10 from '../assets/images/sneaker-10.webp'
+import sneaker1 from '../assets/images/sneaker-1.avif'
+import sneaker2 from '../assets/images/sneaker-2.avif'
+import sneaker3 from '../assets/images/sneaker-3.avif'
+import sneaker4 from '../assets/images/sneaker-4.avif'
+import sneaker5 from '../assets/images/sneaker-5.avif'
+import sneaker6 from '../assets/images/sneaker-6.avif'
+import sneaker7 from '../assets/images/sneaker-7.avif'
+import sneaker8 from '../assets/images/sneaker-8.avif'
+import sneaker9 from '../assets/images/sneaker-9.avif'
+import sneaker10 from '../assets/images/sneaker-10.avif'
 import sneaker11 from '../assets/images/sneaker-11.webp'
 import sneaker12 from '../assets/images/sneaker-12.webp'
 import sneaker13 from '../assets/images/sneaker-13.webp'
@@ -110,26 +110,26 @@ import sneaker20 from '../assets/images/sneaker-20.webp'
 
 
 // // Eyewear Images
-// import eyewear1 from '../assets/images/eyewear-1.webp';
-// import eyewear2 from '../assets/images/eyewear-2.webp';
-// import eyewear3 from '../assets/images/eyewear-3.webp';
-// import eyewear4 from '../assets/images/eyewear-4.webp';
-// import eyewear5 from '../assets/images/eyewear-5.webp';
-// import eyewear6 from '../assets/images/eyewear-6.webp';
-// import eyewear7 from '../assets/images/eyewear-7.webp';
-// import eyewear8 from '../assets/images/eyewear-8.webp';
-// import eyewear9 from '../assets/images/eyewear-9.webp';
-// import eyewear10 from '../assets/images/eyewear-10.webp';
-// import eyewear11 from '../assets/images/eyewear-11.webp';
-// import eyewear12 from '../assets/images/eyewear-12.webp';
-// import eyewear13 from '../assets/images/eyewear-13.webp';
-// import eyewear14 from '../assets/images/eyewear-14.webp';
-// import eyewear15 from '../assets/images/eyewear-15.webp';
-// import eyewear16 from '../assets/images/eyewear-16.webp';
-// import eyewear17 from '../assets/images/eyewear-17.webp';
-// import eyewear18 from '../assets/images/eyewear-18.webp';
-// import eyewear19 from '../assets/images/eyewear-19.webp';
-// import eyewear20 from '../assets/images/eyewear-20.webp';
+import eyewear1 from '../assets/images/eyewear-1.jpg';
+import eyewear2 from '../assets/images/eyewear-2.jpg';
+import eyewear3 from '../assets/images/eyewear-3.jpg';
+import eyewear4 from '../assets/images/eyewear-4.jpg';
+import eyewear5 from '../assets/images/eyewear-5.jpg';
+import eyewear6 from '../assets/images/eyewear-6.jpg';
+import eyewear7 from '../assets/images/eyewear-7.jpg';
+import eyewear8 from '../assets/images/eyewear-8.jpg';
+import eyewear9 from '../assets/images/eyewear-9.jpg';
+import eyewear10 from '../assets/images/eyewear-10.jpg';
+import eyewear11 from '../assets/images/eyewear-11.jpg';
+import eyewear12 from '../assets/images/eyewear-12.jpg';
+import eyewear13 from '../assets/images/eyewear-13.jpg';
+import eyewear14 from '../assets/images/eyewear-14.jpg';
+import eyewear15 from '../assets/images/eyewear-15.jpg';
+import eyewear16 from '../assets/images/eyewear-16.jpg';
+import eyewear17 from '../assets/images/eyewear-17.jpg';
+import eyewear18 from '../assets/images/eyewear-18.jpg';
+import eyewear19 from '../assets/images/eyewear-19.jpg';
+import eyewear20 from '../assets/images/eyewear-20.jpg';
 
 
 // // Product data
@@ -377,728 +377,728 @@ const products = [
   },
 
 //   // Hoodies
-//   {
-//     id: 21,
-//     name: 'Premium Fleece Hoodie',
-//     description: 'A cozy hoodie made from premium fleece for warmth and comfort.',
-//     category: 'hoodie',
-//     price: 1200,
-//     image: hoodie1,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['Black', 'Grey']
-//     }
-//   },
-//   {
-//     id: 22,
-//     name: 'Embroidered Logo Hoodie',
-//     description: 'A stylish hoodie with an embroidered logo on the chest.',
-//     category: 'hoodie',
-//     price: 1500,
-//     image: hoodie2,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Navy', 'Charcoal']
-//     }
-//   },
-//   {
-//     id: 23,
-//     name: 'Oversized Hoodie',
-//     description: 'A large, comfortable hoodie with a relaxed fit for lounging.',
-//     category: 'hoodie',
-//     price: 1600,
-//     image: hoodie3,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['White', 'Beige']
-//     }
-//   },
-//   {
-//     id: 24,
-//     name: 'Zip-Up Hoodie',
-//     description: 'A zip-up design for easy on and off with a casual vibe.',
-//     category: 'hoodie',
-//     price: 1400,
-//     image: hoodie4,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Black', 'Grey']
-//     }
-//   },
-//   {
-//     id: 25,
-//     name: 'Tech-Fabric Hoodie',
-//     description: 'A performance hoodie made with breathable, moisture-wicking fabric.',
-//     category: 'hoodie',
-//     price: 1700,
-//     image: hoodie5,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Blue', 'Black']
-//     }
-//   },
-//   {
-//     id: 26,
-//     name: 'Camouflage Hoodie',
-//     description: 'A trendy camo hoodie with a bold and edgy look.',
-//     category: 'hoodie',
-//     price: 1800,
-//     image: hoodie6,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Green Camo', 'Black Camo']
-//     }
-//   },
-//   {
-//     id: 27,
-//     name: 'Festival Hoodie',
-//     description: 'Perfect for festivals with a lightweight yet warm design.',
-//     category: 'hoodie',
-//     price: 1300,
-//     image: hoodie7,
-//     customization: {
-//       size: ['S', 'M'],
-//       color: ['Purple', 'Yellow']
-//     }
-//   },
-//   {
-//     id: 28,
-//     name: 'Heavy Duty Hoodie',
-//     description: 'A thick hoodie designed to keep you warm during colder months.',
-//     category: 'hoodie',
-//     price: 2200,
-//     image: hoodie8,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Black', 'Red']
-//     }
-//   },
-//   {
-//     id: 29,
-//     name: 'Graphic Print Hoodie',
-//     description: 'A bold graphic print hoodie to showcase your style.',
-//     category: 'hoodie',
-//     price: 1600,
-//     image: hoodie9,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Grey', 'Black']
-//     }
-//   },
-//   {
-//     id: 30,
-//     name: 'Vintage Hoodie',
-//     description: 'Retro-inspired hoodie with vintage graphic prints.',
-//     category: 'hoodie',
-//     price: 1500,
-//     image: hoodie10,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Navy', 'Charcoal']
-//     }
-//   },
+  {
+    id: 21,
+    name: 'Premium Fleece Hoodie',
+    description: 'A cozy hoodie made from premium fleece for warmth and comfort.',
+    category: 'hoodie',
+    price: 1200,
+    image: hoodie1,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Black', 'Grey']
+    }
+  },
+  {
+    id: 22,
+    name: 'Embroidered Logo Hoodie',
+    description: 'A stylish hoodie with an embroidered logo on the chest.',
+    category: 'hoodie',
+    price: 1500,
+    image: hoodie2,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Navy', 'Charcoal']
+    }
+  },
+  {
+    id: 23,
+    name: 'Oversized Hoodie',
+    description: 'A large, comfortable hoodie with a relaxed fit for lounging.',
+    category: 'hoodie',
+    price: 1600,
+    image: hoodie3,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['White', 'Beige']
+    }
+  },
+  {
+    id: 24,
+    name: 'Zip-Up Hoodie',
+    description: 'A zip-up design for easy on and off with a casual vibe.',
+    category: 'hoodie',
+    price: 1400,
+    image: hoodie4,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Black', 'Grey']
+    }
+  },
+  {
+    id: 25,
+    name: 'Tech-Fabric Hoodie',
+    description: 'A performance hoodie made with breathable, moisture-wicking fabric.',
+    category: 'hoodie',
+    price: 1700,
+    image: hoodie5,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Blue', 'Black']
+    }
+  },
+  {
+    id: 26,
+    name: 'Camouflage Hoodie',
+    description: 'A trendy camo hoodie with a bold and edgy look.',
+    category: 'hoodie',
+    price: 1800,
+    image: hoodie6,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Green Camo', 'Black Camo']
+    }
+  },
+  {
+    id: 27,
+    name: 'Festival Hoodie',
+    description: 'Perfect for festivals with a lightweight yet warm design.',
+    category: 'hoodie',
+    price: 1300,
+    image: hoodie7,
+    customization: {
+      size: ['S', 'M'],
+      color: ['Purple', 'Yellow']
+    }
+  },
+  {
+    id: 28,
+    name: 'Heavy Duty Hoodie',
+    description: 'A thick hoodie designed to keep you warm during colder months.',
+    category: 'hoodie',
+    price: 2200,
+    image: hoodie8,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Black', 'Red']
+    }
+  },
+  {
+    id: 29,
+    name: 'Graphic Print Hoodie',
+    description: 'A bold graphic print hoodie to showcase your style.',
+    category: 'hoodie',
+    price: 1600,
+    image: hoodie9,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Grey', 'Black']
+    }
+  },
+  {
+    id: 30,
+    name: 'Vintage Hoodie',
+    description: 'Retro-inspired hoodie with vintage graphic prints.',
+    category: 'hoodie',
+    price: 1500,
+    image: hoodie10,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Navy', 'Charcoal']
+    }
+  },
 
-//   {
-//     id: 31,
-//     name: 'Minimalist Hoodie',
-//     description: 'A clean and minimalist design for a simple, stylish look.',
-//     category: 'hoodie',
-//     price: 1600,
-//     image: hoodie11,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Black', 'White']
-//     }
-//   },
-//   {
-//     id: 32,
-//     name: 'Graphic Print Hoodie',
-//     description: 'Hoodie with bold graphic prints for a streetwear vibe.',
-//     category: 'hoodie',
-//     price: 1700,
-//     image: hoodie12,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Red', 'Grey']
-//     }
-//   },
-//   {
-//     id: 33,
-//     name: 'Oversized Hoodie',
-//     description: 'An oversized hoodie for a comfortable and relaxed fit.',
-//     category: 'hoodie',
-//     price: 1800,
-//     image: hoodie13,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Black', 'Beige']
-//     }
-//   },
-//   {
-//     id: 34,
-//     name: 'Zip-Up Hoodie',
-//     description: 'A zip-up hoodie offering versatile layering options.',
-//     category: 'hoodie',
-//     price: 1400,
-//     image: hoodie14,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Blue', 'Grey']
-//     }
-//   },
-//   {
-//     id: 35,
-//     name: 'Tech Fleece Hoodie',
-//     description: 'A performance fleece hoodie with moisture-wicking properties.',
-//     category: 'hoodie',
-//     price: 2000,
-//     image: hoodie15,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Black', 'Charcoal']
-//     }
-//   },
-//   {
-//     id: 36,
-//     name: 'Plaid Hoodie',
-//     description: 'A hoodie with a plaid design for a unique, casual look.',
-//     category: 'hoodie',
-//     price: 1600,
-//     image: hoodie16,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Red/Black', 'Blue/White']
-//     }
-//   },
-//   {
-//     id: 37,
-//     name: 'Camo Hoodie',
-//     description: 'Camouflage pattern hoodie for a rugged and outdoor look.',
-//     category: 'hoodie',
-//     price: 1700,
-//     image: hoodie17,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Green', 'Brown']
-//     }
-//   },
-//   {
-//     id: 38,
-//     name: 'Embroidered Hoodie',
-//     description: 'Hoodie with custom embroidery for a personalized touch.',
-//     category: 'hoodie',
-//     price: 1900,
-//     image: hoodie18,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Black', 'Navy']
-//     }
-//   },
-//   {
-//     id: 39,
-//     name: 'Reflective Hoodie',
-//     description: 'A hoodie with reflective elements for visibility at night.',
-//     category: 'hoodie',
-//     price: 2200,
-//     image: hoodie19,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Black', 'Grey']
-//     }
-//   },
-//   {
-//     id: 40,
-//     name: 'Reversible Hoodie',
-//     description: 'A versatile, reversible hoodie with different colors on each side.',
-//     category: 'hoodie',
-//     price: 2100,
-//     image: hoodie20,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Red/Black', 'Grey/Charcoal']
-//     }
-//   },
+  {
+    id: 31,
+    name: 'Minimalist Hoodie',
+    description: 'A clean and minimalist design for a simple, stylish look.',
+    category: 'hoodie',
+    price: 1600,
+    image: hoodie11,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Black', 'White']
+    }
+  },
+  {
+    id: 32,
+    name: 'Graphic Print Hoodie',
+    description: 'Hoodie with bold graphic prints for a streetwear vibe.',
+    category: 'hoodie',
+    price: 1700,
+    image: hoodie12,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Red', 'Grey']
+    }
+  },
+  {
+    id: 33,
+    name: 'Oversized Hoodie',
+    description: 'An oversized hoodie for a comfortable and relaxed fit.',
+    category: 'hoodie',
+    price: 1800,
+    image: hoodie13,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Black', 'Beige']
+    }
+  },
+  {
+    id: 34,
+    name: 'Zip-Up Hoodie',
+    description: 'A zip-up hoodie offering versatile layering options.',
+    category: 'hoodie',
+    price: 1400,
+    image: hoodie14,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Blue', 'Grey']
+    }
+  },
+  {
+    id: 35,
+    name: 'Tech Fleece Hoodie',
+    description: 'A performance fleece hoodie with moisture-wicking properties.',
+    category: 'hoodie',
+    price: 2000,
+    image: hoodie15,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Black', 'Charcoal']
+    }
+  },
+  {
+    id: 36,
+    name: 'Plaid Hoodie',
+    description: 'A hoodie with a plaid design for a unique, casual look.',
+    category: 'hoodie',
+    price: 1600,
+    image: hoodie16,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Red/Black', 'Blue/White']
+    }
+  },
+  {
+    id: 37,
+    name: 'Camo Hoodie',
+    description: 'Camouflage pattern hoodie for a rugged and outdoor look.',
+    category: 'hoodie',
+    price: 1700,
+    image: hoodie17,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Green', 'Brown']
+    }
+  },
+  {
+    id: 38,
+    name: 'Embroidered Hoodie',
+    description: 'Hoodie with custom embroidery for a personalized touch.',
+    category: 'hoodie',
+    price: 1900,
+    image: hoodie18,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Black', 'Navy']
+    }
+  },
+  {
+    id: 39,
+    name: 'Reflective Hoodie',
+    description: 'A hoodie with reflective elements for visibility at night.',
+    category: 'hoodie',
+    price: 2200,
+    image: hoodie19,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Black', 'Grey']
+    }
+  },
+  {
+    id: 40,
+    name: 'Reversible Hoodie',
+    description: 'A versatile, reversible hoodie with different colors on each side.',
+    category: 'hoodie',
+    price: 2100,
+    image: hoodie20,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Red/Black', 'Grey/Charcoal']
+    }
+  },
 
-//   {
-//     id: 41,
-//     name: 'Custom Soccer Jersey',
-//     description: 'Personalized soccer jersey with your name and favorite number.',
-//     category: 'customJersey',
-//     price: 1800,
-//     image: customJersey1,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['Red', 'Blue']
-//     }
-//   },
-//   {
-//     id: 42,
-//     name: 'Football Fan Jersey',
-//     description: 'Custom jersey for football fans with custom prints and colors.',
-//     category: 'customJersey',
-//     price: 1900,
-//     image: customJersey2,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Green', 'Black']
-//     }
-//   },
-//   {
-//     id: 43,
-//     name: 'Baseball Jersey',
-//     description: 'Stylish baseball jersey with custom name and number.',
-//     category: 'customJersey',
-//     price: 2000,
-//     image: customJersey3,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['White', 'Blue']
-//     }
-//   },
-//   {
-//     id: 44,
-//     name: 'Rugby Jersey',
-//     description: 'Durable rugby jersey with custom print for the ultimate fan.',
-//     category: 'customJersey',
-//     price: 2100,
-//     image: customJersey4,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Black', 'Yellow']
-//     }
-//   },
-//   {
-//     id: 45,
-//     name: 'Basketball Jersey',
-//     description: 'Custom basketball jersey with your number and team name.',
-//     category: 'customJersey',
-//     price: 2200,
-//     image: customJersey5,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['Purple', 'Gold']
-//     }
-//   },
-//   {
-//     id: 46,
-//     name: 'Vintage Sports Jersey',
-//     description: 'Retro-style jersey with a vintage look and custom details.',
-//     category: 'customJersey',
-//     price: 2300,
-//     image: customJersey6,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Red', 'White']
-//     }
-//   },
-//   {
-//     id: 47,
-//     name: 'Ice Hockey Jersey',
-//     description: 'Heavy-duty ice hockey jersey with personalized design options.',
-//     category: 'customJersey',
-//     price: 2500,
-//     image: customJersey7,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Black', 'Blue']
-//     }
-//   },
-//   {
-//     id: 48,
-//     name: 'Team Spirit Jersey',
-//     description: 'Custom team spirit jersey with your choice of mascot and number.',
-//     category: 'customJersey',
-//     price: 2400,
-//     image: customJersey8,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Yellow', 'Green']
-//     }
-//   },
-//   {
-//     id: 49,
-//     name: 'Custom Running Jersey',
-//     description: 'Lightweight running jersey with a personalized print and number.',
-//     category: 'customJersey',
-//     price: 1600,
-//     image: customJersey9,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Orange', 'Grey']
-//     }
-//   },
-//   {
-//     id: 50,
-//     name: 'College Team Jersey',
-//     description: 'Custom college team jersey with team name and number options.',
-//     category: 'customJersey',
-//     price: 2200,
-//     image: customJersey10,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Red', 'Navy']
-//     }
-//   },
-//   {
-//     id: 51,
-//     name: 'Football Jersey',
-//     description: 'Personalized football jersey with custom number and name.',
-//     category: 'customJersey',
-//     price: 2100,
-//     image: customJersey11,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Black', 'White']
-//     }
-//   },
-//   {
-//     id: 52,
-//     name: 'Custom Wrestling Jersey',
-//     description: 'Custom-made wrestling jersey for ultimate comfort and style.',
-//     category: 'customJersey',
-//     price: 2200,
-//     image: customJersey12,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['Red', 'Black']
-//     }
-//   },
-//   {
-//     id: 53,
-//     name: 'Track and Field Jersey',
-//     description: 'Jersey for track athletes with personal number and team name.',
-//     category: 'customJersey',
-//     price: 2000,
-//     image: customJersey13,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['White', 'Blue']
-//     }
-//   },
-//   {
-//     id: 54,
-//     name: 'Custom Tennis Jersey',
-//     description: 'Comfortable tennis jersey with personal name and number.',
-//     category: 'customJersey',
-//     price: 1900,
-//     image: customJersey14,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Green', 'Yellow']
-//     }
-//   },
-//   {
-//     id: 55,
-//     name: 'Gym Jersey',
-//     description: 'Custom gym jersey with breathable fabric and personalized print.',
-//     category: 'customJersey',
-//     price: 1700,
-//     image: customJersey15,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Grey', 'Black']
-//     }
-//   },
-//   {
-//     id: 56,
-//     name: 'Cricket Jersey',
-//     description: 'Personalized cricket jersey for both comfort and performance.',
-//     category: 'customJersey',
-//     price: 2100,
-//     image: customJersey16,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['White', 'Blue']
-//     }
-//   },
-//   {
-//     id: 57,
-//     name: 'Motorsport Jersey',
-//     description: 'Custom motorsport jersey with sponsor logos and personal details.',
-//     category: 'customJersey',
-//     price: 2500,
-//     image: customJersey17,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Red', 'Black']
-//     }
-//   },
-//   {
-//     id: 58,
-//     name: 'Custom Skateboarding Jersey',
-//     description: 'A unique jersey for skateboarders with a personalized number and design.',
-//     category: 'customJersey',
-//     price: 1800,
-//     image: customJersey18,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Orange', 'Black']
-//     }
-//   },
-//   {
-//     id: 59,
-//     name: 'V-neck Jersey',
-//     description: 'V-neck custom jersey for a sleek and athletic look.',
-//     category: 'customJersey',
-//     price: 1600,
-//     image: customJersey19,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Purple', 'White']
-//     }
-//   },
-//   {
-//     id: 60,
-//     name: 'Full Sleeve Jersey',
-//     description: 'Full-sleeve custom jersey for cooler weather with a personalized touch.',
-//     category: 'customJersey',
-//     price: 1900,
-//     image: customJersey20,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Black', 'Grey']
-//     }
-//   },
-//   {
-//     id: 61,
-//     name: 'FC Barcelona Jersey',
-//     description: 'Official FC Barcelona jersey with personalized name and number.',
-//     category: 'clubJersey',
-//     price: 2500,
-//     image: clubJersey1,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['Blue', 'Maroon']
-//     }
-//   },
-//   {
-//     id: 62,
-//     name: 'Manchester United Jersey',
-//     description: 'Custom Manchester United jersey with your favorite player’s name.',
-//     category: 'clubJersey',
-//     price: 2600,
-//     image: clubJersey2,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Red', 'White']
-//     }
-//   },
-//   {
-//     id: 63,
-//     name: 'Chelsea FC Jersey',
-//     description: 'Support your team with this custom Chelsea FC jersey.',
-//     category: 'clubJersey',
-//     price: 2700,
-//     image: clubJersey3,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['Blue', 'White']
-//     }
-//   },
-//   {
-//     id: 64,
-//     name: 'Real Madrid Jersey',
-//     description: 'Official Real Madrid jersey with the option to add custom text.',
-//     category: 'clubJersey',
-//     price: 2800,
-//     image: clubJersey4,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['White', 'Gold']
-//     }
-//   },
-//   {
-//     id: 65,
-//     name: 'Liverpool FC Jersey',
-//     description: 'Show your support with a custom Liverpool FC jersey.',
-//     category: 'clubJersey',
-//     price: 2900,
-//     image: clubJersey5,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Red', 'White']
-//     }
-//   },
-//   {
-//     id: 66,
-//     name: 'Arsenal FC Jersey',
-//     description: 'Custom Arsenal jersey with personal name and number.',
-//     category: 'clubJersey',
-//     price: 2700,
-//     image: clubJersey6,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['Red', 'White']
-//     }
-//   },
-//   {
-//     id: 67,
-//     name: 'Bayern Munich Jersey',
-//     description: 'Support Bayern Munich with a custom jersey featuring your name.',
-//     category: 'clubJersey',
-//     price: 3000,
-//     image: clubJersey7,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Red', 'White']
-//     }
-//   },
-//   {
-//     id: 68,
-//     name: 'Juventus FC Jersey',
-//     description: 'Stylish Juventus FC jersey with the option to add your favorite number.',
-//     category: 'clubJersey',
-//     price: 2800,
-//     image: clubJersey8,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Black', 'White']
-//     }
-//   },
-//   {
-//     id: 69,
-//     name: 'AC Milan Jersey',
-//     description: 'Official AC Milan jersey with your custom name and number.',
-//     category: 'clubJersey',
-//     price: 2700,
-//     image: clubJersey9,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Red', 'Black']
-//     }
-//   },
-//   {
-//     id: 70,
-//     name: 'Paris Saint-Germain Jersey',
-//     description: 'Customize your Paris Saint-Germain jersey with your name and number.',
-//     category: 'clubJersey',
-//     price: 2900,
-//     image: clubJersey10,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['Blue', 'Red']
-//     }
-//   },
-//   {
-//     id: 71,
-//     name: 'Tottenham Hotspur Jersey',
-//     description: 'Custom Tottenham Hotspur jersey with personalized text and number.',
-//     category: 'clubJersey',
-//     price: 2600,
-//     image: clubJersey11,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['White', 'Navy']
-//     }
-//   },
-//   {
-//     id: 72,
-//     name: 'Manchester City Jersey',
-//     description: 'Show your pride with a custom Manchester City jersey.',
-//     category: 'clubJersey',
-//     price: 2500,
-//     image: clubJersey12,
-//     customization: {
-//       size: ['S', 'M', 'L', 'XL'],
-//       color: ['Sky Blue', 'Navy']
-//     }
-//   },
-//   {
-//     id: 73,
-//     name: 'AS Roma Jersey',
-//     description: 'Custom AS Roma jersey for true fans with personalized details.',
-//     category: 'clubJersey',
-//     price: 2700,
-//     image: clubJersey13,
-//     customization: {
-//       size: ['M', 'L'],
-//       color: ['Red', 'Gold']
-//     }
-//   },
-//   {
-//     id: 74,
-//     name: 'Borussia Dortmund Jersey',
-//     description: 'Personalize your Borussia Dortmund jersey with your name and favorite number.',
-//     category: 'clubJersey',
-//     price: 2600,
-//     image: clubJersey14,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Yellow', 'Black']
-//     }
-//   },
-//   {
-//     id: 75,
-//     name: 'Olympique Lyonnais Jersey',
-//     description: 'Custom Olympique Lyonnais jersey with personalized design.',
-//     category: 'clubJersey',
-//     price: 2500,
-//     image: clubJersey15,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Blue', 'White']
-//     }
-//   },
-//   {
-//     id: 76,
-//     name: 'FC Porto Jersey',
-//     description: 'Official FC Porto jersey with your choice of name and number.',
-//     category: 'clubJersey',
-//     price: 2400,
-//     image: clubJersey16,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Blue', 'White']
-//     }
-//   },
-//   {
-//     id: 77,
-//     name: 'Napoli FC Jersey',
-//     description: 'Personalized Napoli FC jersey with a custom print.',
-//     category: 'clubJersey',
-//     price: 2700,
-//     image: clubJersey17,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['Blue', 'White']
-//     }
-//   },
-//   {
-//     id: 78,
-//     name: 'Atletico Madrid Jersey',
-//     description: 'Support Atletico Madrid with a custom jersey designed by you.',
-//     category: 'clubJersey',
-//     price: 2500,
-//     image: clubJersey18,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Red', 'White']
-//     }
-//   },
-//   {
-//     id: 79,
-//     name: 'Sevilla FC Jersey',
-//     description: 'Stylish Sevilla FC jersey with your name and number.',
-//     category: 'clubJersey',
-//     price: 2600,
-//     image: clubJersey19,
-//     customization: {
-//       size: ['M', 'L', 'XL'],
-//       color: ['White', 'Red']
-//     }
-//   },
-//   {
-//     id: 80,
-//     name: 'Valencia CF Jersey',
-//     description: 'Custom Valencia CF jersey with your favorite number.',
-//     category: 'clubJersey',
-//     price: 2400,
-//     image: clubJersey20,
-//     customization: {
-//       size: ['S', 'M', 'L'],
-//       color: ['Orange', 'Black']
-//     }
-//   },
+  {
+    id: 41,
+    name: 'Custom Soccer Jersey',
+    description: 'Personalized soccer jersey with your name and favorite number.',
+    category: 'customJersey',
+    price: 1800,
+    image: customJersey1,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Red', 'Blue']
+    }
+  },
+  {
+    id: 42,
+    name: 'Football Fan Jersey',
+    description: 'Custom jersey for football fans with custom prints and colors.',
+    category: 'customJersey',
+    price: 1900,
+    image: customJersey2,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Green', 'Black']
+    }
+  },
+  {
+    id: 43,
+    name: 'Baseball Jersey',
+    description: 'Stylish baseball jersey with custom name and number.',
+    category: 'customJersey',
+    price: 2000,
+    image: customJersey3,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['White', 'Blue']
+    }
+  },
+  {
+    id: 44,
+    name: 'Rugby Jersey',
+    description: 'Durable rugby jersey with custom print for the ultimate fan.',
+    category: 'customJersey',
+    price: 2100,
+    image: customJersey4,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Black', 'Yellow']
+    }
+  },
+  {
+    id: 45,
+    name: 'Basketball Jersey',
+    description: 'Custom basketball jersey with your number and team name.',
+    category: 'customJersey',
+    price: 2200,
+    image: customJersey5,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Purple', 'Gold']
+    }
+  },
+  {
+    id: 46,
+    name: 'Vintage Sports Jersey',
+    description: 'Retro-style jersey with a vintage look and custom details.',
+    category: 'customJersey',
+    price: 2300,
+    image: customJersey6,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Red', 'White']
+    }
+  },
+  {
+    id: 47,
+    name: 'Ice Hockey Jersey',
+    description: 'Heavy-duty ice hockey jersey with personalized design options.',
+    category: 'customJersey',
+    price: 2500,
+    image: customJersey7,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Black', 'Blue']
+    }
+  },
+  {
+    id: 48,
+    name: 'Team Spirit Jersey',
+    description: 'Custom team spirit jersey with your choice of mascot and number.',
+    category: 'customJersey',
+    price: 2400,
+    image: customJersey8,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Yellow', 'Green']
+    }
+  },
+  {
+    id: 49,
+    name: 'Custom Running Jersey',
+    description: 'Lightweight running jersey with a personalized print and number.',
+    category: 'customJersey',
+    price: 1600,
+    image: customJersey9,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Orange', 'Grey']
+    }
+  },
+  {
+    id: 50,
+    name: 'College Team Jersey',
+    description: 'Custom college team jersey with team name and number options.',
+    category: 'customJersey',
+    price: 2200,
+    image: customJersey10,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Red', 'Navy']
+    }
+  },
+  {
+    id: 51,
+    name: 'Football Jersey',
+    description: 'Personalized football jersey with custom number and name.',
+    category: 'customJersey',
+    price: 2100,
+    image: customJersey11,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Black', 'White']
+    }
+  },
+  {
+    id: 52,
+    name: 'Custom Wrestling Jersey',
+    description: 'Custom-made wrestling jersey for ultimate comfort and style.',
+    category: 'customJersey',
+    price: 2200,
+    image: customJersey12,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Red', 'Black']
+    }
+  },
+  {
+    id: 53,
+    name: 'Track and Field Jersey',
+    description: 'Jersey for track athletes with personal number and team name.',
+    category: 'customJersey',
+    price: 2000,
+    image: customJersey13,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['White', 'Blue']
+    }
+  },
+  {
+    id: 54,
+    name: 'Custom Tennis Jersey',
+    description: 'Comfortable tennis jersey with personal name and number.',
+    category: 'customJersey',
+    price: 1900,
+    image: customJersey14,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Green', 'Yellow']
+    }
+  },
+  {
+    id: 55,
+    name: 'Gym Jersey',
+    description: 'Custom gym jersey with breathable fabric and personalized print.',
+    category: 'customJersey',
+    price: 1700,
+    image: customJersey15,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Grey', 'Black']
+    }
+  },
+  {
+    id: 56,
+    name: 'Cricket Jersey',
+    description: 'Personalized cricket jersey for both comfort and performance.',
+    category: 'customJersey',
+    price: 2100,
+    image: customJersey16,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['White', 'Blue']
+    }
+  },
+  {
+    id: 57,
+    name: 'Motorsport Jersey',
+    description: 'Custom motorsport jersey with sponsor logos and personal details.',
+    category: 'customJersey',
+    price: 2500,
+    image: customJersey17,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Red', 'Black']
+    }
+  },
+  {
+    id: 58,
+    name: 'Custom Skateboarding Jersey',
+    description: 'A unique jersey for skateboarders with a personalized number and design.',
+    category: 'customJersey',
+    price: 1800,
+    image: customJersey18,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Orange', 'Black']
+    }
+  },
+  {
+    id: 59,
+    name: 'V-neck Jersey',
+    description: 'V-neck custom jersey for a sleek and athletic look.',
+    category: 'customJersey',
+    price: 1600,
+    image: customJersey19,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Purple', 'White']
+    }
+  },
+  {
+    id: 60,
+    name: 'Full Sleeve Jersey',
+    description: 'Full-sleeve custom jersey for cooler weather with a personalized touch.',
+    category: 'customJersey',
+    price: 1900,
+    image: customJersey20,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Black', 'Grey']
+    }
+  },
+  {
+    id: 61,
+    name: 'FC Barcelona Jersey',
+    description: 'Official FC Barcelona jersey with personalized name and number.',
+    category: 'clubJersey',
+    price: 2500,
+    image: clubJersey1,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Blue', 'Maroon']
+    }
+  },
+  {
+    id: 62,
+    name: 'Manchester United Jersey',
+    description: 'Custom Manchester United jersey with your favorite player’s name.',
+    category: 'clubJersey',
+    price: 2600,
+    image: clubJersey2,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Red', 'White']
+    }
+  },
+  {
+    id: 63,
+    name: 'Chelsea FC Jersey',
+    description: 'Support your team with this custom Chelsea FC jersey.',
+    category: 'clubJersey',
+    price: 2700,
+    image: clubJersey3,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Blue', 'White']
+    }
+  },
+  {
+    id: 64,
+    name: 'Real Madrid Jersey',
+    description: 'Official Real Madrid jersey with the option to add custom text.',
+    category: 'clubJersey',
+    price: 2800,
+    image: clubJersey4,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['White', 'Gold']
+    }
+  },
+  {
+    id: 65,
+    name: 'Liverpool FC Jersey',
+    description: 'Show your support with a custom Liverpool FC jersey.',
+    category: 'clubJersey',
+    price: 2900,
+    image: clubJersey5,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Red', 'White']
+    }
+  },
+  {
+    id: 66,
+    name: 'Arsenal FC Jersey',
+    description: 'Custom Arsenal jersey with personal name and number.',
+    category: 'clubJersey',
+    price: 2700,
+    image: clubJersey6,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Red', 'White']
+    }
+  },
+  {
+    id: 67,
+    name: 'Bayern Munich Jersey',
+    description: 'Support Bayern Munich with a custom jersey featuring your name.',
+    category: 'clubJersey',
+    price: 3000,
+    image: clubJersey7,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Red', 'White']
+    }
+  },
+  {
+    id: 68,
+    name: 'Juventus FC Jersey',
+    description: 'Stylish Juventus FC jersey with the option to add your favorite number.',
+    category: 'clubJersey',
+    price: 2800,
+    image: clubJersey8,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Black', 'White']
+    }
+  },
+  {
+    id: 69,
+    name: 'AC Milan Jersey',
+    description: 'Official AC Milan jersey with your custom name and number.',
+    category: 'clubJersey',
+    price: 2700,
+    image: clubJersey9,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Red', 'Black']
+    }
+  },
+  {
+    id: 70,
+    name: 'Paris Saint-Germain Jersey',
+    description: 'Customize your Paris Saint-Germain jersey with your name and number.',
+    category: 'clubJersey',
+    price: 2900,
+    image: clubJersey10,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Blue', 'Red']
+    }
+  },
+  {
+    id: 71,
+    name: 'Tottenham Hotspur Jersey',
+    description: 'Custom Tottenham Hotspur jersey with personalized text and number.',
+    category: 'clubJersey',
+    price: 2600,
+    image: clubJersey11,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['White', 'Navy']
+    }
+  },
+  {
+    id: 72,
+    name: 'Manchester City Jersey',
+    description: 'Show your pride with a custom Manchester City jersey.',
+    category: 'clubJersey',
+    price: 2500,
+    image: clubJersey12,
+    customization: {
+      size: ['S', 'M', 'L', 'XL'],
+      color: ['Sky Blue', 'Navy']
+    }
+  },
+  {
+    id: 73,
+    name: 'AS Roma Jersey',
+    description: 'Custom AS Roma jersey for true fans with personalized details.',
+    category: 'clubJersey',
+    price: 2700,
+    image: clubJersey13,
+    customization: {
+      size: ['M', 'L'],
+      color: ['Red', 'Gold']
+    }
+  },
+  {
+    id: 74,
+    name: 'Borussia Dortmund Jersey',
+    description: 'Personalize your Borussia Dortmund jersey with your name and favorite number.',
+    category: 'clubJersey',
+    price: 2600,
+    image: clubJersey14,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Yellow', 'Black']
+    }
+  },
+  {
+    id: 75,
+    name: 'Olympique Lyonnais Jersey',
+    description: 'Custom Olympique Lyonnais jersey with personalized design.',
+    category: 'clubJersey',
+    price: 2500,
+    image: clubJersey15,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Blue', 'White']
+    }
+  },
+  {
+    id: 76,
+    name: 'FC Porto Jersey',
+    description: 'Official FC Porto jersey with your choice of name and number.',
+    category: 'clubJersey',
+    price: 2400,
+    image: clubJersey16,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Blue', 'White']
+    }
+  },
+  {
+    id: 77,
+    name: 'Napoli FC Jersey',
+    description: 'Personalized Napoli FC jersey with a custom print.',
+    category: 'clubJersey',
+    price: 2700,
+    image: clubJersey17,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['Blue', 'White']
+    }
+  },
+  {
+    id: 78,
+    name: 'Atletico Madrid Jersey',
+    description: 'Support Atletico Madrid with a custom jersey designed by you.',
+    category: 'clubJersey',
+    price: 2500,
+    image: clubJersey18,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Red', 'White']
+    }
+  },
+  {
+    id: 79,
+    name: 'Sevilla FC Jersey',
+    description: 'Stylish Sevilla FC jersey with your name and number.',
+    category: 'clubJersey',
+    price: 2600,
+    image: clubJersey19,
+    customization: {
+      size: ['M', 'L', 'XL'],
+      color: ['White', 'Red']
+    }
+  },
+  {
+    id: 80,
+    name: 'Valencia CF Jersey',
+    description: 'Custom Valencia CF jersey with your favorite number.',
+    category: 'clubJersey',
+    price: 2400,
+    image: clubJersey20,
+    customization: {
+      size: ['S', 'M', 'L'],
+      color: ['Orange', 'Black']
+    }
+  },
   {
     id: 81,
     name: 'Nike Air Max 90',
@@ -1340,246 +1340,246 @@ const products = [
     }
   },
 
-//     {
-//       id: 81,
-//       name: 'Sleek Black Sunglasses',
-//       description: 'Trendy black sunglasses with UV protection.',
-//       category: 'eyewear',
-//       price: 1200,
-//       image: eyewear1,
-//       customization: {
-//         size: ['One Size'],
-//         color: ['Black']
-//       }
-//     },
-//     {
-//       id: 82,
-//       name: 'Round Golden Glasses',
-//       description: 'Classic round-shaped glasses with a golden frame.',
-//       category: 'eyewear',
-//       price: 1500,
-//       image: eyewear2,
-//       customization: {
-//         size: ['M', 'L'],
-//         color: ['Gold']
-//       }
-//     },
-//     {
-//       id: 83,
-//       name: 'Retro Cat-Eye Glasses',
-//       description: 'Stylish cat-eye glasses for a vintage look.',
-//       category: 'eyewear',
-//       price: 1400,
-//       image: eyewear3,
-//       customization: {
-//         size: ['S', 'M'],
-//         color: ['Black', 'Red']
-//       }
-//     },
-//     {
-//       id: 84,
-//       name: 'Sporty Sunglasses',
-//       description: 'Perfect for outdoor activities, with high UV protection.',
-//       category: 'eyewear',
-//       price: 1600,
-//       image: eyewear4,
-//       customization: {
-//         size: ['One Size'],
-//         color: ['Blue', 'Green']
-//       }
-//     },
-//     {
-//       id: 85,
-//       name: 'Wooden Frame Eyewear',
-//       description: 'Eco-friendly eyewear with a wooden frame.',
-//       category: 'eyewear',
-//       price: 1800,
-//       image: eyewear5,
-//       customization: {
-//         size: ['M', 'L'],
-//         color: ['Brown']
-//       }
-//     },
-//     {
-//       id: 86,
-//       name: 'Aviator Sunglasses',
-//       description: 'Classic aviator sunglasses with a thin metallic frame.',
-//       category: 'eyewear',
-//       price: 1350,
-//       image: eyewear6,
-//       customization: {
-//         size: ['One Size'],
-//         color: ['Silver', 'Gold']
-//       }
-//     },
-//     {
-//       id: 87,
-//       name: 'Clear Frame Glasses',
-//       description: 'Stylish and modern clear frame eyeglasses.',
-//       category: 'eyewear',
-//       price: 1200,
-//       image: eyewear7,
-//       customization: {
-//         size: ['S', 'M'],
-//         color: ['Clear']
-//       }
-//     },
-//     {
-//       id: 88,
-//       name: 'Sporty Prescription Glasses',
-//       description: 'Prescription glasses designed for sports enthusiasts.',
-//       category: 'eyewear',
-//       price: 2000,
-//       image: eyewear8,
-//       customization: {
-//         size: ['M', 'L'],
-//         color: ['Black', 'Gray']
-//       }
-//     },
-//     {
-//       id: 89,
-//       name: 'Blue Light Glasses',
-//       description: 'Specialized glasses to protect from screen time strain.',
-//       category: 'eyewear',
-//       price: 1000,
-//       image: eyewear9,
-//       customization: {
-//         size: ['One Size'],
-//         color: ['Black', 'Blue']
-//       }
-//     },
-//     {
-//       id: 90,
-//       name: 'Oversized Sunglasses',
-//       description: 'Fashion-forward oversized sunglasses for a bold look.',
-//       category: 'eyewear',
-//       price: 1300,
-//       image: eyewear10,
-//       customization: {
-//         size: ['One Size'],
-//         color: ['Black', 'Gray']
-//       }
-//     },
-//     {
-//       id: 91,
-//       name: 'Polarized Sunglasses',
-//       description: 'Polarized sunglasses that reduce glare and enhance clarity.',
-//       category: 'eyewear',
-//       price: 1700,
-//       image: eyewear11,
-//       customization: {
-//         size: ['One Size'],
-//         color: ['Brown', 'Blue']
-//       }
-//     },
-//     {
-//       id: 92,
-//       name: 'Vintage Round Glasses',
-//       description: 'Vintage round-shaped glasses for a classic look.',
-//       category: 'eyewear',
-//       price: 1100,
-//       image: eyewear12,
-//       customization: {
-//         size: ['M', 'L'],
-//         color: ['Gold']
-//       }
-//     },
-//     {
-//       id: 93,
-//       name: 'Fashionable Square Glasses',
-//       description: 'Contemporary square glasses with a sleek design.',
-//       category: 'eyewear',
-//       price: 1400,
-//       image: eyewear13,
-//       customization: {
-//         size: ['M', 'L'],
-//         color: ['Black', 'Gray']
-//       }
-//     },
-//     {
-//       id: 94,
-//       name: 'Wooden Frame Sunglasses',
-//       description: 'Sustainable wooden frame sunglasses for a nature-inspired look.',
-//       category: 'eyewear',
-//       price: 1550,
-//       image: eyewear14,
-//       customization: {
-//         size: ['One Size'],
-//         color: ['Brown']
-//       }
-//     },
-//     {
-//       id: 95,
-//       name: 'Sporty Goggles',
-//       description: 'High-performance goggles for extreme sports and activities.',
-//       category: 'eyewear',
-//       price: 2200,
-//       image: eyewear15,
-//       customization: {
-//         size: ['One Size'],
-//         color: ['Red', 'Black']
-//       }
-//     },
-//     {
-//       id: 96,
-//       name: 'Luxury Sunglasses',
-//       description: 'Premium sunglasses with high-end design and materials.',
-//       category: 'eyewear',
-//       price: 2500,
-//       image: eyewear16,
-//       customization: {
-//         size: ['One Size'],
-//         color: ['Black', 'Silver']
-//       }
-//     },
-//     {
-//       id: 97,
-//       name: 'Minimalist Eyewear',
-//       description: 'Sleek and minimalist eyeglasses for a modern look.',
-//       category: 'eyewear',
-//       price: 1300,
-//       image: eyewear17,
-//       customization: {
-//         size: ['S', 'M'],
-//         color: ['Black', 'Clear']
-//       }
-//     },
-//     {
-//       id: 98,
-//       name: 'Colorful Sunglasses',
-//       description: 'Fun and colorful sunglasses for a playful vibe.',
-//       category: 'eyewear',
-//       price: 1100,
-//       image: eyewear18,
-//       customization: {
-//         size: ['One Size'],
-//         color: ['Pink', 'Blue']
-//       }
-//     },
-//     {
-//       id: 99,
-//       name: 'Gradient Lens Glasses',
-//       description: 'Eyeglasses with gradient lenses for a fashionable twist.',
-//       category: 'eyewear',
-//       price: 1450,
-//       image: eyewear19,
-//       customization: {
-//         size: ['M', 'L'],
-//         color: ['Gray', 'Blue']
-//       }
-//     },
-//     {
-//       id: 100,
-//       name: 'Luxury Aviator Glasses',
-//       description: 'High-end aviator glasses with a timeless design.',
-//       category: 'eyewear',
-//       price: 2800,
-//       image: eyewear20,
-//       customization: {
-//         size: ['One Size'],
-//         color: ['Gold', 'Silver']
-//       }
-//     }
+    {
+      id: 81,
+      name: 'Sleek Black Sunglasses',
+      description: 'Trendy black sunglasses with UV protection.',
+      category: 'eyewear',
+      price: 1200,
+      image: eyewear1,
+      customization: {
+        size: ['One Size'],
+        color: ['Black']
+      }
+    },
+    {
+      id: 82,
+      name: 'Round Golden Glasses',
+      description: 'Classic round-shaped glasses with a golden frame.',
+      category: 'eyewear',
+      price: 1500,
+      image: eyewear2,
+      customization: {
+        size: ['M', 'L'],
+        color: ['Gold']
+      }
+    },
+    {
+      id: 83,
+      name: 'Retro Cat-Eye Glasses',
+      description: 'Stylish cat-eye glasses for a vintage look.',
+      category: 'eyewear',
+      price: 1400,
+      image: eyewear3,
+      customization: {
+        size: ['S', 'M'],
+        color: ['Black', 'Red']
+      }
+    },
+    {
+      id: 84,
+      name: 'Sporty Sunglasses',
+      description: 'Perfect for outdoor activities, with high UV protection.',
+      category: 'eyewear',
+      price: 1600,
+      image: eyewear4,
+      customization: {
+        size: ['One Size'],
+        color: ['Blue', 'Green']
+      }
+    },
+    {
+      id: 85,
+      name: 'Wooden Frame Eyewear',
+      description: 'Eco-friendly eyewear with a wooden frame.',
+      category: 'eyewear',
+      price: 1800,
+      image: eyewear5,
+      customization: {
+        size: ['M', 'L'],
+        color: ['Brown']
+      }
+    },
+    {
+      id: 86,
+      name: 'Aviator Sunglasses',
+      description: 'Classic aviator sunglasses with a thin metallic frame.',
+      category: 'eyewear',
+      price: 1350,
+      image: eyewear6,
+      customization: {
+        size: ['One Size'],
+        color: ['Silver', 'Gold']
+      }
+    },
+    {
+      id: 87,
+      name: 'Clear Frame Glasses',
+      description: 'Stylish and modern clear frame eyeglasses.',
+      category: 'eyewear',
+      price: 1200,
+      image: eyewear7,
+      customization: {
+        size: ['S', 'M'],
+        color: ['Clear']
+      }
+    },
+    {
+      id: 88,
+      name: 'Sporty Prescription Glasses',
+      description: 'Prescription glasses designed for sports enthusiasts.',
+      category: 'eyewear',
+      price: 2000,
+      image: eyewear8,
+      customization: {
+        size: ['M', 'L'],
+        color: ['Black', 'Gray']
+      }
+    },
+    {
+      id: 89,
+      name: 'Blue Light Glasses',
+      description: 'Specialized glasses to protect from screen time strain.',
+      category: 'eyewear',
+      price: 1000,
+      image: eyewear9,
+      customization: {
+        size: ['One Size'],
+        color: ['Black', 'Blue']
+      }
+    },
+    {
+      id: 90,
+      name: 'Oversized Sunglasses',
+      description: 'Fashion-forward oversized sunglasses for a bold look.',
+      category: 'eyewear',
+      price: 1300,
+      image: eyewear10,
+      customization: {
+        size: ['One Size'],
+        color: ['Black', 'Gray']
+      }
+    },
+    {
+      id: 91,
+      name: 'Polarized Sunglasses',
+      description: 'Polarized sunglasses that reduce glare and enhance clarity.',
+      category: 'eyewear',
+      price: 1700,
+      image: eyewear11,
+      customization: {
+        size: ['One Size'],
+        color: ['Brown', 'Blue']
+      }
+    },
+    {
+      id: 92,
+      name: 'Vintage Round Glasses',
+      description: 'Vintage round-shaped glasses for a classic look.',
+      category: 'eyewear',
+      price: 1100,
+      image: eyewear12,
+      customization: {
+        size: ['M', 'L'],
+        color: ['Gold']
+      }
+    },
+    {
+      id: 93,
+      name: 'Fashionable Square Glasses',
+      description: 'Contemporary square glasses with a sleek design.',
+      category: 'eyewear',
+      price: 1400,
+      image: eyewear13,
+      customization: {
+        size: ['M', 'L'],
+        color: ['Black', 'Gray']
+      }
+    },
+    {
+      id: 94,
+      name: 'Wooden Frame Sunglasses',
+      description: 'Sustainable wooden frame sunglasses for a nature-inspired look.',
+      category: 'eyewear',
+      price: 1550,
+      image: eyewear14,
+      customization: {
+        size: ['One Size'],
+        color: ['Brown']
+      }
+    },
+    {
+      id: 95,
+      name: 'Sporty Goggles',
+      description: 'High-performance goggles for extreme sports and activities.',
+      category: 'eyewear',
+      price: 2200,
+      image: eyewear15,
+      customization: {
+        size: ['One Size'],
+        color: ['Red', 'Black']
+      }
+    },
+    {
+      id: 96,
+      name: 'Luxury Sunglasses',
+      description: 'Premium sunglasses with high-end design and materials.',
+      category: 'eyewear',
+      price: 2500,
+      image: eyewear16,
+      customization: {
+        size: ['One Size'],
+        color: ['Black', 'Silver']
+      }
+    },
+    {
+      id: 97,
+      name: 'Minimalist Eyewear',
+      description: 'Sleek and minimalist eyeglasses for a modern look.',
+      category: 'eyewear',
+      price: 1300,
+      image: eyewear17,
+      customization: {
+        size: ['S', 'M'],
+        color: ['Black', 'Clear']
+      }
+    },
+    {
+      id: 98,
+      name: 'Colorful Sunglasses',
+      description: 'Fun and colorful sunglasses for a playful vibe.',
+      category: 'eyewear',
+      price: 1100,
+      image: eyewear18,
+      customization: {
+        size: ['One Size'],
+        color: ['Pink', 'Blue']
+      }
+    },
+    {
+      id: 99,
+      name: 'Gradient Lens Glasses',
+      description: 'Eyeglasses with gradient lenses for a fashionable twist.',
+      category: 'eyewear',
+      price: 1450,
+      image: eyewear19,
+      customization: {
+        size: ['M', 'L'],
+        color: ['Gray', 'Blue']
+      }
+    },
+    {
+      id: 100,
+      name: 'Luxury Aviator Glasses',
+      description: 'High-end aviator glasses with a timeless design.',
+      category: 'eyewear',
+      price: 2800,
+      image: eyewear20,
+      customization: {
+        size: ['One Size'],
+        color: ['Gold', 'Silver']
+      }
+    }
 
 ];
 
