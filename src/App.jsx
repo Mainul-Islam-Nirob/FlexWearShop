@@ -1,13 +1,12 @@
 import './App.css'
+import Shop from './Components/Shop'
 
 function App() {
 
   return (
     <>
       <h1>FlexWearShop</h1>       
-      <p className="read-the-docs">
-      This is an e-commerce site for customizeable t-shirt, hoodies, jersey, sneakers...
-      </p>
+      <Shop />
     </>
   )
 }
