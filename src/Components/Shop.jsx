@@ -1,8 +1,12 @@
 import React from 'react';
 import products from '../Products/Products.js';
+import Navbar from './Navbar.jsx';
+import Footer from './Footer.jsx';
 
 function Shop() {
   return (
+    <>
+    <Navbar />
     <div className="max-w-7xl mx-auto px-4 py-8">
       <h2 className="text-3xl font-semibold text-center text-gray-900 mb-8">Shop Our Collection</h2>
       
@@ -32,6 +36,8 @@ function Shop() {
         ))}
       </div>
     </div>
+    <Footer />
+    </>
   );
 }
 

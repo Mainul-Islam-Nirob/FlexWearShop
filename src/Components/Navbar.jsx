@@ -14,7 +14,7 @@ function Navbar() {
 
         <div className="hidden md:flex space-x-6 text-gray-700 font-medium items-center relative">
           <Link to="/" className="hover:text-blue-600 transition">Home</Link>
-          <Link to="Shop" className="hover:text-blue-600 transition">Shop</Link>
+          <Link to="/shop" className="hover:text-blue-600 transition">Shop</Link>
 
           <div className="relative">
             <button
@@ -46,14 +46,14 @@ function Navbar() {
         <div className="flex items-center space-x-3">
           <input
             type="text"
-            placeholder="Search items"
+            placeholder="Search items..."
             className="hidden lg:block px-3 py-1.5 border border-gray-300 rounded-full focus:ring-2 focus:ring-blue-400 transition"
           />
 
-          <Link to="login" className="text-sm font-medium text-gray-700 hover:text-blue-600 transition">
+          <Link to="/login" className="text-sm font-medium text-gray-700 hover:text-blue-600 transition">
             Login
           </Link>
-          <Link to="signUp" className="text-sm font-medium bg-blue-600 text-white px-4 py-1.5 rounded-full hover:bg-blue-700 transition">
+          <Link to="/signUp" className="text-sm font-medium bg-blue-600 text-white px-4 py-1.5 rounded-full hover:bg-blue-700 transition">
             Sign Up
           </Link>
 
