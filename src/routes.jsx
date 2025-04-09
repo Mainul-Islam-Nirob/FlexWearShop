@@ -6,6 +6,7 @@ import SignUp from './components/SignUp.jsx';
 import ErrorPage from './components/ErrorPage.jsx';
 import App from "./App.jsx";
 import ProductDetail from "./components/ProductDetail.jsx";
+import Category from "./components/Category.jsx";
 
 const routes = [
   {
@@ -28,6 +29,10 @@ const routes = [
   {
     path: "product/:id",
     element: <ProductDetail />
+  },
+  {
+    path: "category/:categoryName",
+    element: <Category />
   }
 
 ];
