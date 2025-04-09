@@ -1,8 +1,9 @@
 import React from 'react';
+import {Link } from 'react-router-dom';
 import modelImg from '../assets/model.webp';
 
 
-function Hero() {
+function Hero({onExploreClick}) {
   return (
     <section className="bg-white py-5 md:py-10">
       <div className="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
@@ -14,11 +15,12 @@ function Hero() {
             Discover trendy apparel for every occasion. Quality guaranteed, comfort assured.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition">
+            <Link to="shop" className="bg-blue-600 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition">
               Shop Now
-            </button>
-            <button className="border border-blue-600 text-blue-600 px-6 py-3 rounded-full font-medium hover:bg-blue-50 transition">
-              Explore Categories
+            </Link>
+            <button onClick={onExploreClick}
+              className="border border-blue-600 text-blue-600 px-6 py-3 rounded-full font-medium cursor-pointer hover:bg-blue-50 transition">
+              Featured Items
             </button>
           </div>
         </div>

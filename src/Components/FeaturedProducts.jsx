@@ -63,7 +63,7 @@ function FeaturedProducts() {
     <section className="py-20 bg-gradient-to-b from-white via-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-12">
-          ✨ Featured Categories
+           Featured Items
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

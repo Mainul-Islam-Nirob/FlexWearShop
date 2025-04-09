@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ShoppingCart, Menu, X } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -9,12 +10,11 @@ function Navbar() {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         
-        <div className="text-2xl font-bold text-blue-600">FlexWearShop</div>
+        <Link to="/" className="text-2xl font-bold text-blue-600">FlexWearShop</Link>
 
         <div className="hidden md:flex space-x-6 text-gray-700 font-medium items-center relative">
-          <a href="#" className="hover:text-blue-600 transition">Home</a>
-          <a href="#" className="hover:text-blue-600 transition">Shop</a>
-          <a href="#" className="hover:text-blue-600 transition">Contact</a>
+          <Link to="/" className="hover:text-blue-600 transition">Home</Link>
+          <Link to="Shop" className="hover:text-blue-600 transition">Shop</Link>
 
           <div className="relative">
             <button
@@ -34,7 +34,7 @@ function Navbar() {
             </button>
 
             {categoryOpen && (
-              <div className="absolute left-0 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-lg z-10">
+              <div className="absolute left-0 mt-2 w-30 bg-white border border-gray-200 rounded-lg shadow-lg z-10 text-left">
                 <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Men</a>
                 <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Women</a>
                 <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Accessories</a>
@@ -46,16 +46,16 @@ function Navbar() {
         <div className="flex items-center space-x-3">
           <input
             type="text"
-            placeholder="Search..."
+            placeholder="Search items"
             className="hidden lg:block px-3 py-1.5 border border-gray-300 rounded-full focus:ring-2 focus:ring-blue-400 transition"
           />
 
-          <button className="text-sm font-medium text-gray-700 hover:text-blue-600 transition">
+          <Link to="login" className="text-sm font-medium text-gray-700 hover:text-blue-600 transition">
             Login
-          </button>
-          <button className="text-sm font-medium bg-blue-600 text-white px-4 py-1.5 rounded-full hover:bg-blue-700 transition">
+          </Link>
+          <Link to="signUp" className="text-sm font-medium bg-blue-600 text-white px-4 py-1.5 rounded-full hover:bg-blue-700 transition">
             Sign Up
-          </button>
+          </Link>
 
           <button className="relative text-gray-700 hover:text-blue-600 transition">
             <ShoppingCart className="w-6 h-6" />

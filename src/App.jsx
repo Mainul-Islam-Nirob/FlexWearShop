@@ -1,3 +1,4 @@
+import React, {useRef} from 'react';
 import './App.css';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -10,14 +11,19 @@ import Contact from './components/Contact'
 import About from './components/About';
 
 function App() {
+  const categoryRef = useRef(null);
+
+  const scrollToCategories = () => {
+    categoryRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="bg-light min-h-screen text-gray-800 font-sans">
       <Navbar />
-      <Hero />
-      <FeaturedProducts />
-      <Shop />
-      {/* <Login />
-      <SignUp /> */}
+      <Hero onExploreClick={scrollToCategories} />
+      <div ref={categoryRef}>
+        <FeaturedProducts />
+      </div>
       <Contact />
       <Footer />
     </div>

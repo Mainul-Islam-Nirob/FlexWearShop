@@ -1,4 +1,5 @@
 import React from 'react'; 
+import {Link} from 'react-router-dom';
 import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
 
 function Contact() {
@@ -29,36 +30,36 @@ function Contact() {
           {/* Quick Links */}
           <div className="space-y-4 text-center sm:text-left">
             <p className="font-semibold text-gray-800 mb-2">Quick Links</p>
-            <a href="/shop" className="flex items-center gap-2 justify-center sm:justify-start hover:text-blue-600 transition">
+            <Link to="shop" className="flex items-center gap-2 justify-center sm:justify-start hover:text-blue-600 transition">
               <ExternalLink className="w-4 h-4" /> Shop
-            </a>
-            <a href="/about" className="flex items-center gap-2 justify-center sm:justify-start hover:text-blue-600 transition">
+            </Link>
+            <Link to="about" className="flex items-center gap-2 justify-center sm:justify-start hover:text-blue-600 transition">
               <ExternalLink className="w-4 h-4" /> About Us
-            </a>
-            <a href="/categories" className="flex items-center gap-2 justify-center sm:justify-start hover:text-blue-600 transition">
+            </Link>
+            <Link to="categories" className="flex items-center gap-2 justify-center sm:justify-start hover:text-blue-600 transition">
               <ExternalLink className="w-4 h-4" /> Categories
-            </a>
-            <a href="/blog" className="flex items-center gap-2 justify-center sm:justify-start hover:text-blue-600 transition">
+            </Link>
+            <Link to="blog" className="flex items-center gap-2 justify-center sm:justify-start hover:text-blue-600 transition">
               <ExternalLink className="w-4 h-4" /> Blog
-            </a>
+            </Link>
           </div>
 
           {/* Customer Service */}
           <div className="space-y-4 text-center sm:text-left">
             <p className="font-semibold text-gray-800 mb-2">Customer Service</p>
-            <a href="/faq" className="hover:text-blue-600 block">FAQ</a>
-            <a href="/returns" className="hover:text-blue-600 block">Return Policy</a>
-            <a href="/shipping" className="hover:text-blue-600 block">Shipping Info</a>
-            <a href="/support" className="hover:text-blue-600 block">Help & Support</a>
+            <Link to="faq" className="hover:text-blue-600 block">FAQ</Link>
+            <Link to="returns" className="hover:text-blue-600 block">Return Policy</Link>
+            <Link to="shipping" className="hover:text-blue-600 block">Shipping Info</Link>
+            <Link to="support" className="hover:text-blue-600 block">Help & Support</Link>
           </div>
 
           {/* Company */}
           <div className="space-y-4 text-center sm:text-left">
             <p className="font-semibold text-gray-800 mb-2">Company</p>
-            <a href="/careers" className="hover:text-blue-600 block">Careers</a>
-            <a href="/terms" className="hover:text-blue-600 block">Terms & Conditions</a>
-            <a href="/privacy" className="hover:text-blue-600 block">Privacy Policy</a>
-            <a href="/contact" className="hover:text-blue-600 block">Contact</a>
+            <Link to="careers" className="hover:text-blue-600 block">Careers</Link>
+            <Link to="terms" className="hover:text-blue-600 block">Terms & Conditions</Link>
+            <Link to="privacy" className="hover:text-blue-600 block">Privacy Policy</Link>
+            <Link to="contact" className="hover:text-blue-600 block">Contact</Link>
           </div>
         </div>
       </div>
