@@ -1,10 +1,11 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { RouterProvider } from "react-router-dom";
 
 import Shop from './components/Shop.jsx';
 import Login from './components/Login.jsx';
 import SignUp from './components/SignUp.jsx';
 import ErrorPage from './components/ErrorPage.jsx';
 import App from "./App.jsx";
+import ProductDetail from "./components/ProductDetail.jsx";
 
 const routes = [
   {
@@ -23,7 +24,12 @@ const routes = [
   {
     path: "signUp",
     element: <SignUp />
+  },
+  {
+    path: "product/:id",
+    element: <ProductDetail />
   }
+
 ];
 
 export default routes;
