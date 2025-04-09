@@ -4,6 +4,10 @@ import Navbar from './components/Navbar';
 import Shop from './components/Shop';
 import FeaturedProducts from './components/FeaturedProducts';
 import Footer from './components/Footer';
+import Login from './components/Login';
+import SignUp from './components/SignUp';
+import Contact from './components/Contact'
+import About from './components/About';
 
 function App() {
   return (
@@ -12,6 +16,9 @@ function App() {
       <Hero />
       <FeaturedProducts />
       <Shop />
+      {/* <Login />
+      <SignUp /> */}
+      <Contact />
       <Footer />
     </div>
   );
