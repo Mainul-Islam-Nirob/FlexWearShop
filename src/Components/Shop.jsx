@@ -1,10 +1,10 @@
-import React, { useMemo } from 'react';
-import  products from '../Products/Products.js';
+import React, { useState, useMemo } from 'react';
+import products from '../Products/Products.js';
 import Navbar from './Navbar.jsx';
 import Footer from './Footer.jsx';
 import { Link } from 'react-router-dom';
 
-// Shuffle utility function
+// Shuffle utility
 function shuffleArray(array) {
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -16,6 +16,11 @@ function shuffleArray(array) {
 
 function Shop() {
   const shuffledProducts = useMemo(() => shuffleArray(products), []);
+  const [visibleCount, setVisibleCount] = useState(20);
+
+  const handleLoadMore = () => {
+    setVisibleCount(prev => prev + 20);
+  };
 
   return (
     <>
@@ -24,7 +29,7 @@ function Shop() {
         <h2 className="text-3xl font-semibold text-center text-gray-900 mb-8">Our Collection</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {shuffledProducts.map(product => (
+          {shuffledProducts.slice(0, visibleCount).map(product => (
             <Link
               to={`/product/${product.id}`}
               key={product.id}
@@ -35,7 +40,6 @@ function Shop() {
                 alt={product.title}
                 className="w-full h-64 object-cover object-center"
               />
-
               <div className="p-4">
                 <h3 className="text-xl font-semibold text-gray-800 truncate">{product.name}</h3>
                 <p className="text-gray-500 text-sm mt-1">{product.description}</p>
@@ -49,6 +53,17 @@ function Shop() {
             </Link>
           ))}
         </div>
+
+        {visibleCount < shuffledProducts.length && (
+          <div className="flex justify-center mt-10">
+            <button
+              onClick={handleLoadMore}
+              className="bg-gray-800 text-white py-2 px-6 rounded-full hover:bg-gray-900 transition-colors cursor-pointer"
+            >
+              Load More
+            </button>
+          </div>
+        )}
       </div>
       <Footer />
     </>
