@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ShoppingCart, Menu, X } from 'lucide-react';
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, NavLink } from "react-router-dom";
 import products from '../Products/Products.js';
 
 function Navbar() {
@@ -16,6 +16,17 @@ function Navbar() {
     }
   };
 
+  const navItemClass = ({ isActive }) => `
+  relative inline-block px-2 py-1 font-medium transition-colors duration-300
+  ${isActive ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}
+  before:content-[''] before:absolute before:left-0 before:bottom-0 
+  before:h-0.5 before:bg-blue-600 before:transition-all before:duration-300
+  before:w-0 hover:before:w-full
+  ${isActive ? 'before:w-full' : ''}
+`;
+
+
+  
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
@@ -23,8 +34,8 @@ function Navbar() {
         <Link to="/" className="text-2xl font-bold text-blue-600">FlexWearShop</Link>
 
         <div className="hidden md:flex space-x-6 text-gray-700 font-medium items-center">
-          <Link to="/" className="hover:text-blue-600 transition">Home</Link>
-          <Link to="/shop" className="hover:text-blue-600 transition">Shop</Link>
+        <NavLink to="/" className={navItemClass}>Home</NavLink>
+        <NavLink to="/shop" className={navItemClass}>Shop</NavLink>
 
           {/* Native Select Dropdown */}
           <select
