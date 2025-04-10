@@ -3,9 +3,11 @@ import { useParams, Link } from 'react-router-dom';
 import products from '../Products/Products';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { useCart } from '../context/CartContext';
 
 function Category() {
   const { categoryName } = useParams();
+  const {addToCart}  = useCart();
 
   const categoryProducts = products.filter(
     (product) => product.category.toLowerCase() === categoryName.toLowerCase()
@@ -45,7 +47,7 @@ function Category() {
                 <div className="flex justify-between items-center">
                   <span className="text-lg font-bold text-gray-900">৳ {product.price}</span>
                   <button
-                    // onClick={() => addToCart(product)}
+                    onClick={() => addToCart(product)}
                     className="bg-blue-500 text-white py-1 px-3 rounded-full hover:bg-blue-600 transition cursor-pointer"
                   >
                     Add to Cart
