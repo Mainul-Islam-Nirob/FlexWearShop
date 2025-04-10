@@ -1341,7 +1341,7 @@ const products = [
   },
 
     {
-      id: 81,
+      id: 101,
       name: 'Sleek Black Sunglasses',
       description: 'Trendy black sunglasses with UV protection.',
       category: 'eyewear',
@@ -1353,7 +1353,7 @@ const products = [
       }
     },
     {
-      id: 82,
+      id: 102,
       name: 'Round Golden Glasses',
       description: 'Classic round-shaped glasses with a golden frame.',
       category: 'eyewear',
@@ -1365,7 +1365,7 @@ const products = [
       }
     },
     {
-      id: 83,
+      id: 103,
       name: 'Retro Cat-Eye Glasses',
       description: 'Stylish cat-eye glasses for a vintage look.',
       category: 'eyewear',
@@ -1377,7 +1377,7 @@ const products = [
       }
     },
     {
-      id: 84,
+      id: 104,
       name: 'Sporty Sunglasses',
       description: 'Perfect for outdoor activities, with high UV protection.',
       category: 'eyewear',
@@ -1389,7 +1389,7 @@ const products = [
       }
     },
     {
-      id: 85,
+      id: 105,
       name: 'Wooden Frame Eyewear',
       description: 'Eco-friendly eyewear with a wooden frame.',
       category: 'eyewear',
@@ -1401,7 +1401,7 @@ const products = [
       }
     },
     {
-      id: 86,
+      id: 106,
       name: 'Aviator Sunglasses',
       description: 'Classic aviator sunglasses with a thin metallic frame.',
       category: 'eyewear',
@@ -1413,7 +1413,7 @@ const products = [
       }
     },
     {
-      id: 87,
+      id: 107,
       name: 'Clear Frame Glasses',
       description: 'Stylish and modern clear frame eyeglasses.',
       category: 'eyewear',
@@ -1425,7 +1425,7 @@ const products = [
       }
     },
     {
-      id: 88,
+      id: 108,
       name: 'Sporty Prescription Glasses',
       description: 'Prescription glasses designed for sports enthusiasts.',
       category: 'eyewear',
@@ -1437,7 +1437,7 @@ const products = [
       }
     },
     {
-      id: 89,
+      id: 109,
       name: 'Blue Light Glasses',
       description: 'Specialized glasses to protect from screen time strain.',
       category: 'eyewear',
@@ -1449,7 +1449,7 @@ const products = [
       }
     },
     {
-      id: 90,
+      id: 110,
       name: 'Oversized Sunglasses',
       description: 'Fashion-forward oversized sunglasses for a bold look.',
       category: 'eyewear',
@@ -1461,7 +1461,7 @@ const products = [
       }
     },
     {
-      id: 91,
+      id: 111,
       name: 'Polarized Sunglasses',
       description: 'Polarized sunglasses that reduce glare and enhance clarity.',
       category: 'eyewear',
@@ -1473,7 +1473,7 @@ const products = [
       }
     },
     {
-      id: 92,
+      id: 112,
       name: 'Vintage Round Glasses',
       description: 'Vintage round-shaped glasses for a classic look.',
       category: 'eyewear',
@@ -1485,7 +1485,7 @@ const products = [
       }
     },
     {
-      id: 93,
+      id: 113,
       name: 'Fashionable Square Glasses',
       description: 'Contemporary square glasses with a sleek design.',
       category: 'eyewear',
@@ -1497,7 +1497,7 @@ const products = [
       }
     },
     {
-      id: 94,
+      id: 114,
       name: 'Wooden Frame Sunglasses',
       description: 'Sustainable wooden frame sunglasses for a nature-inspired look.',
       category: 'eyewear',
@@ -1509,7 +1509,7 @@ const products = [
       }
     },
     {
-      id: 95,
+      id: 115,
       name: 'Sporty Goggles',
       description: 'High-performance goggles for extreme sports and activities.',
       category: 'eyewear',
@@ -1521,7 +1521,7 @@ const products = [
       }
     },
     {
-      id: 96,
+      id: 116,
       name: 'Luxury Sunglasses',
       description: 'Premium sunglasses with high-end design and materials.',
       category: 'eyewear',
@@ -1533,7 +1533,7 @@ const products = [
       }
     },
     {
-      id: 97,
+      id: 117,
       name: 'Minimalist Eyewear',
       description: 'Sleek and minimalist eyeglasses for a modern look.',
       category: 'eyewear',
@@ -1545,7 +1545,7 @@ const products = [
       }
     },
     {
-      id: 98,
+      id: 118,
       name: 'Colorful Sunglasses',
       description: 'Fun and colorful sunglasses for a playful vibe.',
       category: 'eyewear',
@@ -1557,7 +1557,7 @@ const products = [
       }
     },
     {
-      id: 99,
+      id: 129,
       name: 'Gradient Lens Glasses',
       description: 'Eyeglasses with gradient lenses for a fashionable twist.',
       category: 'eyewear',
@@ -1569,7 +1569,7 @@ const products = [
       }
     },
     {
-      id: 100,
+      id: 120,
       name: 'Luxury Aviator Glasses',
       description: 'High-end aviator glasses with a timeless design.',
       category: 'eyewear',

@@ -3,6 +3,8 @@ import products from "../Products/Products.js";
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 import { Link } from "react-router-dom";
+import { useCart } from '../context/CartContext';
+
 
 function shuffleArray(array) {
   const shuffled = [...array];
@@ -20,6 +22,9 @@ function Shop() {
   const handleLoadMore = () => {
     setVisibleCount((prev) => prev + 20);
   };
+
+  const { addToCart } = useCart();
+
 
   return (
     <>
@@ -56,7 +61,8 @@ function Shop() {
                   <p className="text-lg font-bold text-gray-900">
                     ৳ {product.price}
                   </p>
-                  <button className="bg-blue-500 text-white py-1.5 px-4 cursor-pointer rounded-full hover:bg-blue-600 transition-colors duration-200">
+                  <button onClick={() => addToCart(product)}
+                       className="bg-blue-500 text-white py-1.5 px-4 cursor-pointer rounded-full hover:bg-blue-600 transition-colors duration-200">
                     Add to Cart
                   </button>
                 </div>
