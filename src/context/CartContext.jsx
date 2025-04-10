@@ -22,10 +22,38 @@ export function CartProvider({ children }) {
     });
   };
 
+  const removeFromCart = (productId) => {
+    setCartItems(prev => prev.filter(item => item.id !== productId));
+  };
+
+  const updateQuantity = (productId, newQuantity) => {
+    if (newQuantity <= 0) {
+      removeFromCart(productId);
+      return;
+    }
+
+    setCartItems(prev =>
+      prev.map(item =>
+        item.id === productId
+          ? { ...item, quantity: newQuantity }
+          : item
+      )
+    );
+  };
+
+  const getTotalPrice = () =>
+    cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
+
+
+
   const value = {
     cartItems,
     addToCart,
     setCartItems,
+    removeFromCart,
+    updateQuantity,
+    getTotalPrice,
+
   };
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;

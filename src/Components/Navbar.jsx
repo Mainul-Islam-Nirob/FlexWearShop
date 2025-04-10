@@ -74,7 +74,8 @@ const { cartItems } = useCart();
   className="relative text-gray-700 hover:text-blue-600 transition"
 >
             <ShoppingCart className="w-6 h-6" />
-            <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-semibold px-1.5 rounded-full">  {cartItems.reduce((sum, item) => sum + item.quantity, 0)}
+            <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-semibold px-1.5 rounded-full"> 
+               {cartItems.reduce((sum, item) => sum + item.quantity, 0)}
             </span>
           </button>
           <CartPanel isOpen={cartOpen} onClose={() => setCartOpen(false)} />

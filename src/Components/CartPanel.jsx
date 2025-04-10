@@ -1,6 +1,6 @@
 import React from 'react';
 import { useCart } from '../context/CartContext';
-import { X } from 'lucide-react';
+import { X, Trash } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 function CartPanel({ isOpen, onClose }) {
@@ -16,7 +16,7 @@ function CartPanel({ isOpen, onClose }) {
       <div className="flex items-center justify-between px-4 py-3 border-b">
         <h2 className="text-lg font-semibold">Your Cart</h2>
         <button onClick={onClose}>
-          <X className="w-5 h-5 text-gray-700" />
+          <X className="w-5 h-5 text-gray-700 cursor-pointer" />
         </button>
       </div>
 
@@ -34,14 +34,14 @@ function CartPanel({ isOpen, onClose }) {
                 <div className="flex items-center gap-2 mt-1">
                   <button
                     onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                    className="px-2 bg-gray-100 hover:bg-gray-200 text-sm rounded"
+                    className="px-2 bg-gray-100 hover:bg-gray-200 text-sm rounded cursor-pointer"
                   >
                     −
                   </button>
                   <span className="px-2 text-sm">{item.quantity}</span>
                   <button
                     onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                    className="px-2 bg-gray-100 hover:bg-gray-200 text-sm rounded"
+                    className="px-2 bg-gray-100 hover:bg-gray-200 text-sm rounded cursor-pointer"
                   >
                     +
                   </button>
@@ -49,9 +49,9 @@ function CartPanel({ isOpen, onClose }) {
               </div>
               <button
                 onClick={() => removeFromCart(item.id)}
-                className="text-red-500 text-xs"
+                className="text-red-500 text-xs cursor-pointer"
               >
-                Remove
+                <Trash size={28} strokeWidth={1.25} />
               </button>
             </div>
           ))
@@ -65,10 +65,10 @@ function CartPanel({ isOpen, onClose }) {
         </div>
         <Link to="/checkout">
           <button
-            className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
+            className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition cursor-pointer"
             onClick={onClose}
           >
-            Go to Checkout
+            Checkout Now
           </button>
         </Link>
       </div>
