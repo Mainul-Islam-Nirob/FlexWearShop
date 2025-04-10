@@ -3,12 +3,13 @@ import { useParams } from "react-router-dom";
 import products from "../Products/Products";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { useCart } from "../context/CartContext";
 
 function ProductDetail() {
   const { id } = useParams();
   const product = products.find((p) => p.id === parseInt(id));
   const [quantity, setQuantity] = useState(1);
-
+  const {addToCart} = useCart();
   const increment = () => setQuantity((q) => q + 1);
   const decrement = () => setQuantity((q) => (q > 1 ? q - 1 : 1));
 
@@ -108,7 +109,9 @@ function ProductDetail() {
               </div>
             </div>
 
-            <button className="mt-4 w-sm sm:w-full bg-blue-600 text-white py-2 rounded-lg text-sm hover:bg-blue-700 transition">
+            <button 
+                onClick={() => addToCart(product, quantity)}
+                className="mt-4 w-sm sm:w-full bg-blue-600 text-white py-2 rounded-lg text-sm hover:bg-blue-700 transition cursor-pointer">
               Add to Cart
             </button>
           </div>

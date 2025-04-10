@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import products from '../Products/Products.js';
 import { Link } from 'react-router-dom';
+import { useCart } from '../context/CartContext.jsx';
 
 function getUniqueCategoryProducts(data) {
   const categories = new Set();
@@ -20,6 +21,7 @@ function getUniqueCategoryProducts(data) {
 
 function FeaturedProducts() {
   const featured = useMemo(() => getUniqueCategoryProducts(products), []);
+  const { addToCart } = useCart();
 
   return (
     <section className="py-20 bg-gradient-to-b from-white via-gray-50 to-white">
@@ -54,6 +56,7 @@ function FeaturedProducts() {
                 </p>
                 <div className="text-lg font-bold text-gray-900 mb-4">৳ {product.price}</div>
                 <button
+                  onClick={() => addToCart(product)}
                   className="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600 transition cursor-pointer"
                 >
                   Add to Cart
