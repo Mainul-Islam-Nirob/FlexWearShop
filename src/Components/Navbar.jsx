@@ -3,11 +3,15 @@ import { ShoppingCart, Menu, X } from 'lucide-react';
 import { Link, useNavigate, NavLink } from "react-router-dom";
 import products from '../Products/Products.js';
 import { useCart } from '../context/CartContext.jsx';
+import CartPanel from './CartPanel';
+
 
 
 function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
+  const [cartOpen, setCartOpen] = useState(false);
+
 
   const categories = [...new Set(products.map(product => product.category))];
 
@@ -65,11 +69,16 @@ const { cartItems } = useCart();
 
           <Link to="/login" className="text-sm font-medium text-gray-700 hover:text-blue-600 transition">Login</Link>
           <Link to="/signUp" className="text-sm font-medium bg-blue-600 text-white px-4 py-1.5 rounded-full hover:bg-blue-700 transition">Sign Up</Link>
-          <button className="relative text-gray-700 hover:text-blue-600 transition">
+          <button
+  onClick={() => setCartOpen(true)}
+  className="relative text-gray-700 hover:text-blue-600 transition"
+>
             <ShoppingCart className="w-6 h-6" />
             <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-semibold px-1.5 rounded-full">  {cartItems.reduce((sum, item) => sum + item.quantity, 0)}
             </span>
           </button>
+          <CartPanel isOpen={cartOpen} onClose={() => setCartOpen(false)} />
+
           <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden ml-2">
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
