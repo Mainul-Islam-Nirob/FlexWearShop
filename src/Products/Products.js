@@ -139,7 +139,7 @@ const products = [
     id: 1,
     name: 'Classic White T-Shirt',
     description: 'A clean white t-shirt with a snug fit and breathable fabric.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 450,
     image: tshirt1,
     customization: {
@@ -151,7 +151,7 @@ const products = [
     id: 2,
     name: 'Graphic Street Tee',
     description: 'Urban-inspired t-shirt with a bold street art graphic.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 650,
     image: tshirt2,
     customization: {
@@ -163,7 +163,7 @@ const products = [
     id: 3,
     name: 'Vintage Logo Tee',
     description: 'A soft cotton t-shirt with a retro logo on the front.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 550,
     image: tshirt3,
     customization: {
@@ -175,7 +175,7 @@ const products = [
     id: 4,
     name: 'Premium Cotton Tee',
     description: 'High-quality cotton for a more comfortable fit and feel.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 700,
     image: tshirt4,
     customization: {
@@ -187,7 +187,7 @@ const products = [
     id: 5,
     name: 'Graphic Print T-Shirt',
     description: 'Show off your style with a bold graphic print on the front.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 600,
     image: tshirt5,
     customization: {
@@ -199,7 +199,7 @@ const products = [
     id: 6,
     name: 'Muscle Fit Tee',
     description: 'A fitted t-shirt designed for a more athletic build.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 650,
     image: tshirt6,
     customization: {
@@ -211,7 +211,7 @@ const products = [
     id: 7,
     name: 'Urban Skater Tee',
     description: 'A laid-back t-shirt with a skateboard-inspired print.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 450,
     image: tshirt7,
     customization: {
@@ -223,7 +223,7 @@ const products = [
     id: 8,
     name: 'Oversized Box Tee',
     description: 'A trendy oversized tee for a relaxed, modern fit.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 700,
     image: tshirt8,
     customization: {
@@ -235,7 +235,7 @@ const products = [
     id: 9,
     name: 'Tropical Print Tee',
     description: 'A fun tropical print t-shirt for those sunny days.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 550,
     image: tshirt9,
     customization: {
@@ -247,7 +247,7 @@ const products = [
     id: 10,
     name: 'Stripe Pattern Tee',
     description: 'A classic stripe pattern that never goes out of style.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 600,
     image: tshirt10,
     customization: {
@@ -259,7 +259,7 @@ const products = [
     id: 11,
     name: 'Comfort Fit Tee',
     description: 'A t-shirt designed with maximum comfort and freedom.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 500,
     image: tshirt11,
     customization: {
@@ -271,7 +271,7 @@ const products = [
     id: 12,
     name: 'Pocket Tee',
     description: 'A simple tee with a small pocket for a subtle look.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 550,
     image: tshirt12,
     customization: {
@@ -283,7 +283,7 @@ const products = [
     id: 13,
     name: 'Minimalist Black Tee',
     description: 'A sleek black t-shirt with minimal branding.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 600,
     image: tshirt13,
     customization: {
@@ -295,7 +295,7 @@ const products = [
     id: 14,
     name: 'Summer Vibes Tee',
     description: 'A vibrant, summer-ready t-shirt with a positive message.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 550,
     image: tshirt14,
     customization: {
@@ -307,7 +307,7 @@ const products = [
     id: 15,
     name: 'Embroidered Logo Tee',
     description: 'Subtle and stylish, with an embroidered logo on the chest.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 650,
     image: tshirt15,
     customization: {
@@ -319,7 +319,7 @@ const products = [
     id: 16,
     name: 'Retro Surf Tee',
     description: 'Channel retro beach vibes with a bold surf graphic.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 500,
     image: tshirt16,
     customization: {
@@ -331,7 +331,7 @@ const products = [
     id: 17,
     name: 'Tie-Dye Tee',
     description: 'A playful tie-dye t-shirt for a pop of color.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 650,
     image: tshirt17,
     customization: {
@@ -343,7 +343,7 @@ const products = [
     id: 18,
     name: 'Wildflower Tee',
     description: 'Nature-inspired print with a beautiful wildflower design.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 550,
     image: tshirt18,
     customization: {
@@ -355,7 +355,7 @@ const products = [
     id: 19,
     name: 'Mountain Adventure Tee',
     description: 'Adventure awaits with this outdoor-themed graphic tee.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 600,
     image: tshirt19,
     customization: {
@@ -367,7 +367,7 @@ const products = [
     id: 20,
     name: 'Sunset Beach Tee',
     description: 'A soft tee featuring a serene beach sunset print.',
-    category: 'tshirt',
+    category: 't-shirt',
     price: 500,
     image: tshirt20,
     customization: {
@@ -623,7 +623,7 @@ const products = [
     id: 41,
     name: 'Custom Soccer Jersey',
     description: 'Personalized soccer jersey with your name and favorite number.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 1800,
     image: customJersey1,
     customization: {
@@ -635,7 +635,7 @@ const products = [
     id: 42,
     name: 'Football Fan Jersey',
     description: 'Custom jersey for football fans with custom prints and colors.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 1900,
     image: customJersey2,
     customization: {
@@ -647,7 +647,7 @@ const products = [
     id: 43,
     name: 'Baseball Jersey',
     description: 'Stylish baseball jersey with custom name and number.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2000,
     image: customJersey3,
     customization: {
@@ -659,7 +659,7 @@ const products = [
     id: 44,
     name: 'Rugby Jersey',
     description: 'Durable rugby jersey with custom print for the ultimate fan.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2100,
     image: customJersey4,
     customization: {
@@ -671,7 +671,7 @@ const products = [
     id: 45,
     name: 'Basketball Jersey',
     description: 'Custom basketball jersey with your number and team name.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2200,
     image: customJersey5,
     customization: {
@@ -683,7 +683,7 @@ const products = [
     id: 46,
     name: 'Vintage Sports Jersey',
     description: 'Retro-style jersey with a vintage look and custom details.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2300,
     image: customJersey6,
     customization: {
@@ -695,7 +695,7 @@ const products = [
     id: 47,
     name: 'Ice Hockey Jersey',
     description: 'Heavy-duty ice hockey jersey with personalized design options.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2500,
     image: customJersey7,
     customization: {
@@ -707,7 +707,7 @@ const products = [
     id: 48,
     name: 'Team Spirit Jersey',
     description: 'Custom team spirit jersey with your choice of mascot and number.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2400,
     image: customJersey8,
     customization: {
@@ -719,7 +719,7 @@ const products = [
     id: 49,
     name: 'Custom Running Jersey',
     description: 'Lightweight running jersey with a personalized print and number.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 1600,
     image: customJersey9,
     customization: {
@@ -731,7 +731,7 @@ const products = [
     id: 50,
     name: 'College Team Jersey',
     description: 'Custom college team jersey with team name and number options.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2200,
     image: customJersey10,
     customization: {
@@ -743,7 +743,7 @@ const products = [
     id: 51,
     name: 'Football Jersey',
     description: 'Personalized football jersey with custom number and name.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2100,
     image: customJersey11,
     customization: {
@@ -755,7 +755,7 @@ const products = [
     id: 52,
     name: 'Custom Wrestling Jersey',
     description: 'Custom-made wrestling jersey for ultimate comfort and style.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2200,
     image: customJersey12,
     customization: {
@@ -767,7 +767,7 @@ const products = [
     id: 53,
     name: 'Track and Field Jersey',
     description: 'Jersey for track athletes with personal number and team name.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2000,
     image: customJersey13,
     customization: {
@@ -779,7 +779,7 @@ const products = [
     id: 54,
     name: 'Custom Tennis Jersey',
     description: 'Comfortable tennis jersey with personal name and number.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 1900,
     image: customJersey14,
     customization: {
@@ -791,7 +791,7 @@ const products = [
     id: 55,
     name: 'Gym Jersey',
     description: 'Custom gym jersey with breathable fabric and personalized print.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 1700,
     image: customJersey15,
     customization: {
@@ -803,7 +803,7 @@ const products = [
     id: 56,
     name: 'Cricket Jersey',
     description: 'Personalized cricket jersey for both comfort and performance.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2100,
     image: customJersey16,
     customization: {
@@ -815,7 +815,7 @@ const products = [
     id: 57,
     name: 'Motorsport Jersey',
     description: 'Custom motorsport jersey with sponsor logos and personal details.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 2500,
     image: customJersey17,
     customization: {
@@ -827,7 +827,7 @@ const products = [
     id: 58,
     name: 'Custom Skateboarding Jersey',
     description: 'A unique jersey for skateboarders with a personalized number and design.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 1800,
     image: customJersey18,
     customization: {
@@ -839,7 +839,7 @@ const products = [
     id: 59,
     name: 'V-neck Jersey',
     description: 'V-neck custom jersey for a sleek and athletic look.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 1600,
     image: customJersey19,
     customization: {
@@ -851,7 +851,7 @@ const products = [
     id: 60,
     name: 'Full Sleeve Jersey',
     description: 'Full-sleeve custom jersey for cooler weather with a personalized touch.',
-    category: 'customJersey',
+    category: 'custom jersey',
     price: 1900,
     image: customJersey20,
     customization: {
@@ -863,7 +863,7 @@ const products = [
     id: 61,
     name: 'FC Barcelona Jersey',
     description: 'Official FC Barcelona jersey with personalized name and number.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2500,
     image: clubJersey1,
     customization: {
@@ -875,7 +875,7 @@ const products = [
     id: 62,
     name: 'Manchester United Jersey',
     description: 'Custom Manchester United jersey with your favorite player’s name.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2600,
     image: clubJersey2,
     customization: {
@@ -887,7 +887,7 @@ const products = [
     id: 63,
     name: 'Chelsea FC Jersey',
     description: 'Support your team with this custom Chelsea FC jersey.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2700,
     image: clubJersey3,
     customization: {
@@ -899,7 +899,7 @@ const products = [
     id: 64,
     name: 'Real Madrid Jersey',
     description: 'Official Real Madrid jersey with the option to add custom text.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2800,
     image: clubJersey4,
     customization: {
@@ -911,7 +911,7 @@ const products = [
     id: 65,
     name: 'Liverpool FC Jersey',
     description: 'Show your support with a custom Liverpool FC jersey.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2900,
     image: clubJersey5,
     customization: {
@@ -923,7 +923,7 @@ const products = [
     id: 66,
     name: 'Arsenal FC Jersey',
     description: 'Custom Arsenal jersey with personal name and number.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2700,
     image: clubJersey6,
     customization: {
@@ -935,7 +935,7 @@ const products = [
     id: 67,
     name: 'Bayern Munich Jersey',
     description: 'Support Bayern Munich with a custom jersey featuring your name.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 3000,
     image: clubJersey7,
     customization: {
@@ -947,7 +947,7 @@ const products = [
     id: 68,
     name: 'Juventus FC Jersey',
     description: 'Stylish Juventus FC jersey with the option to add your favorite number.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2800,
     image: clubJersey8,
     customization: {
@@ -959,7 +959,7 @@ const products = [
     id: 69,
     name: 'AC Milan Jersey',
     description: 'Official AC Milan jersey with your custom name and number.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2700,
     image: clubJersey9,
     customization: {
@@ -971,7 +971,7 @@ const products = [
     id: 70,
     name: 'Paris Saint-Germain Jersey',
     description: 'Customize your Paris Saint-Germain jersey with your name and number.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2900,
     image: clubJersey10,
     customization: {
@@ -983,7 +983,7 @@ const products = [
     id: 71,
     name: 'Tottenham Hotspur Jersey',
     description: 'Custom Tottenham Hotspur jersey with personalized text and number.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2600,
     image: clubJersey11,
     customization: {
@@ -995,7 +995,7 @@ const products = [
     id: 72,
     name: 'Manchester City Jersey',
     description: 'Show your pride with a custom Manchester City jersey.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2500,
     image: clubJersey12,
     customization: {
@@ -1007,7 +1007,7 @@ const products = [
     id: 73,
     name: 'AS Roma Jersey',
     description: 'Custom AS Roma jersey for true fans with personalized details.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2700,
     image: clubJersey13,
     customization: {
@@ -1019,7 +1019,7 @@ const products = [
     id: 74,
     name: 'Borussia Dortmund Jersey',
     description: 'Personalize your Borussia Dortmund jersey with your name and favorite number.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2600,
     image: clubJersey14,
     customization: {
@@ -1031,7 +1031,7 @@ const products = [
     id: 75,
     name: 'Olympique Lyonnais Jersey',
     description: 'Custom Olympique Lyonnais jersey with personalized design.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2500,
     image: clubJersey15,
     customization: {
@@ -1043,7 +1043,7 @@ const products = [
     id: 76,
     name: 'FC Porto Jersey',
     description: 'Official FC Porto jersey with your choice of name and number.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2400,
     image: clubJersey16,
     customization: {
@@ -1055,7 +1055,7 @@ const products = [
     id: 77,
     name: 'Napoli FC Jersey',
     description: 'Personalized Napoli FC jersey with a custom print.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2700,
     image: clubJersey17,
     customization: {
@@ -1067,7 +1067,7 @@ const products = [
     id: 78,
     name: 'Atletico Madrid Jersey',
     description: 'Support Atletico Madrid with a custom jersey designed by you.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2500,
     image: clubJersey18,
     customization: {
@@ -1079,7 +1079,7 @@ const products = [
     id: 79,
     name: 'Sevilla FC Jersey',
     description: 'Stylish Sevilla FC jersey with your name and number.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2600,
     image: clubJersey19,
     customization: {
@@ -1091,7 +1091,7 @@ const products = [
     id: 80,
     name: 'Valencia CF Jersey',
     description: 'Custom Valencia CF jersey with your favorite number.',
-    category: 'clubJersey',
+    category: 'club jersey',
     price: 2400,
     image: clubJersey20,
     customization: {
