@@ -1,10 +1,10 @@
 import { RouterProvider } from "react-router-dom";
 
+import App from "./App";
 import Shop from './components/Shop';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
 import ErrorPage from './components/ErrorPage';
-import App from "./App";
 import ProductDetail from "./components/ProductDetail";
 import Category from "./components/Category";
 import CheckoutPage from "./components/CheckoutPage";
