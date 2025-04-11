@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link } from 'react-router-dom';
 import modelImg from '../assets/model.webp';
+import PropTypes from 'prop-types';
 
 
 function Hero({onExploreClick}) {
@@ -38,3 +39,7 @@ function Hero({onExploreClick}) {
 }
 
 export default Hero;
+
+Hero.propTypes = {
+  onExploreClick: PropTypes.func.isRequired,
+};

@@ -2,6 +2,7 @@ import React from 'react';
 import { useCart } from '../context/CartContext';
 import { X, Trash } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 function CartPanel({ isOpen, onClose }) {
   const { cartItems, updateQuantity, removeFromCart } = useCart();
@@ -118,3 +119,9 @@ function CartPanel({ isOpen, onClose }) {
 }
 
 export default CartPanel;
+
+CartPanel.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
+};
+
