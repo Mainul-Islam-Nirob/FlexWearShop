@@ -1,9 +1,10 @@
 import React from 'react';
 import { useCart } from '../context/CartContext';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate  } from 'react-router-dom';
 
 function CheckoutPage() {
-  const { cartItems } = useCart();
+    const { cartItems, setCartItems } = useCart();
+    const navigate = useNavigate();
 
   const subtotal = cartItems.reduce(
     (total, item) => total + item.price * item.quantity,
@@ -12,6 +13,15 @@ function CheckoutPage() {
   const taxRate = 0.075;
   const tax = subtotal * taxRate;
   const total = subtotal + tax;
+
+  const handlePlaceOrder = () => {
+    // Clear cart after order is placed
+    setCartItems([]);
+    
+    // Navigate to the success page
+    navigate('/order-success');
+  };
+
 
   return (
     <div className="max-w-4xl mx-auto p-6">
@@ -66,8 +76,8 @@ function CheckoutPage() {
           </div>
 
           <button
-            className="mt-6 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition"
-            onClick={() => alert('Order placed!')} // Replace with real submission
+            className="mt-6 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition cursor-pointer"
+            onClick={handlePlaceOrder}
           >
             Place Order
           </button>

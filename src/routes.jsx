@@ -8,6 +8,7 @@ import App from "./App.jsx";
 import ProductDetail from "./components/ProductDetail.jsx";
 import Category from "./components/Category.jsx";
 import CheckoutPage from "./components/CheckoutPage.jsx";
+import OrderSuccess from "./components/OrderSuccess.jsx";
 
 const routes = [
   {
@@ -30,6 +31,10 @@ const routes = [
   {
     path: "checkout",
     element: <CheckoutPage />
+  },
+  {
+    path: "order-success",
+    element: <OrderSuccess />
   },
   {
     path: "product/:id",

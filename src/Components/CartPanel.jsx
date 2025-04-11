@@ -72,7 +72,7 @@ function CartPanel({ isOpen, onClose }) {
                   <span className="px-2 text-sm">{item.quantity}</span>
                   <button
                     onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                    className="px-2 bg-gray-100 hover:bg-gray-200 text-sm rounded"
+                    className="px-2 bg-gray-100 hover:bg-gray-200 text-sm rounded cursor-pointer"
                   >
                     +
                   </button>

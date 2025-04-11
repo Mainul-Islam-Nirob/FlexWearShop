@@ -71,7 +71,7 @@ const { cartItems } = useCart();
           <Link to="/signUp" className="text-sm font-medium bg-blue-600 text-white px-4 py-1.5 rounded-full hover:bg-blue-700 transition">Sign Up</Link>
           <button
   onClick={() => setCartOpen(true)}
-  className="relative text-gray-700 hover:text-blue-600 transition"
+  className="relative text-gray-700 hover:text-blue-600 transition cursor-pointer"
 >
             <ShoppingCart className="w-6 h-6" />
             <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-semibold px-1.5 rounded-full"> 
