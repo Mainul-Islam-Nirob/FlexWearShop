@@ -77,7 +77,7 @@ function ProductDetail() {
                     {product.customization.size.map((size) => (
                       <button
                         key={size}
-                        className="px-3 py-1 text-sm border border-gray-300 rounded hover:border-blue-500"
+                        className="px-3 py-1 text-sm border border-gray-300 rounded hover:border-blue-500 cursor-pointer"
                       >
                         {size}
                       </button>
@@ -95,14 +95,14 @@ function ProductDetail() {
               <div className="flex items-center border rounded overflow-hidden">
                 <button
                   onClick={decrement}
-                  className="px-2 py-1 bg-gray-100 hover:bg-gray-200"
+                  className="px-2 py-1 bg-gray-100 hover:bg-gray-200 cursor-pointer"
                 >
                   −
                 </button>
                 <div className="px-3 text-sm">{quantity}</div>
                 <button
                   onClick={increment}
-                  className="px-2 py-1 bg-gray-100 hover:bg-gray-200"
+                  className="px-2 py-1 bg-gray-100 hover:bg-gray-200 cursor-pointer"
                 >
                   +
                 </button>
