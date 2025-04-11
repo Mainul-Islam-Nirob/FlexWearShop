@@ -71,7 +71,6 @@ const { cartItems } = useCart();
         <NavLink to="/" className={navItemClass}>Home</NavLink>
         <NavLink to="/shop" className={navItemClass}>Shop</NavLink>
 
-          {/* Native Select Dropdown */}
           <select
             onChange={handleCategoryChange}
             defaultValue=""
