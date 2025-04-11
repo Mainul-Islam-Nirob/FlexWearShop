@@ -16,14 +16,14 @@ const routes = [
     element: <App />,
     errorElement: <ErrorPage />,
   },
-  {
-    path: "shop",
-    element: <Shop />,
-  },
-  {
-    path: "login",
-    element: <Login />
-  },
+  // {
+  //   path: "shop",
+  //   element: <Shop />,
+  // },
+  // {
+  //   path: "login",
+  //   element: <Login />
+  // },
   {
     path: "signUp",
     element: <SignUp />
