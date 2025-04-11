@@ -1,8 +1,8 @@
 import { RouterProvider } from "react-router-dom";
 
 import App from "./App.jsx";
-// import Shop from './components/Shop.jsx';
-// import Login from './components/Login.jsx';
+import Shop from './components/Shop.jsx';
+import Login from './components/Login.jsx';
 import SignUp from './components/SignUp.jsx';
 import ErrorPage from './components/ErrorPage.jsx';
 import ProductDetail from "./components/ProductDetail.jsx";
@@ -16,14 +16,14 @@ const routes = [
     element: <App />,
     errorElement: <ErrorPage />,
   },
-  // {
-  //   path: "shop",
-  //   element: <Shop />,
-  // },
-  // {
-  //   path: "login",
-  //   element: <Login />
-  // },
+  {
+    path: "shop",
+    element: <Shop />,
+  },
+  {
+    path: "login",
+    element: <Login />
+  },
   {
     path: "signUp",
     element: <SignUp />
