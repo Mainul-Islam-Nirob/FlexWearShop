@@ -1,14 +1,14 @@
 import { RouterProvider } from "react-router-dom";
 
-// import Shop from './components/Shop.jsx';
-import Login from './components/Login.jsx';
-import SignUp from './components/SignUp.jsx';
-import ErrorPage from './components/ErrorPage.jsx';
-import App from "./App.jsx";
-import ProductDetail from "./components/ProductDetail.jsx";
-import Category from "./components/Category.jsx";
-import CheckoutPage from "./components/CheckoutPage.jsx";
-import OrderSuccess from "./components/OrderSuccess.jsx";
+import Shop from './components/Shop';
+import Login from './components/Login';
+import SignUp from './components/SignUp';
+import ErrorPage from './components/ErrorPage';
+import App from "./App";
+import ProductDetail from "./components/ProductDetail";
+import Category from "./components/Category";
+import CheckoutPage from "./components/CheckoutPage";
+import OrderSuccess from "./components/OrderSuccess";
 
 const routes = [
   {
@@ -16,10 +16,10 @@ const routes = [
     element: <App />,
     errorElement: <ErrorPage />,
   },
-  // {
-  //   path: "shop",
-  //   element: <Shop />,
-  // },
+  {
+    path: "shop",
+    element: <Shop />,
+  },
   {
     path: "login",
     element: <Login />
