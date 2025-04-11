@@ -1,14 +1,14 @@
 import { RouterProvider } from "react-router-dom";
 
-import App from "./App";
-import Shop from './components/Shop';
-import Login from './components/Login';
-import SignUp from './components/SignUp';
-import ErrorPage from './components/ErrorPage';
-import ProductDetail from "./components/ProductDetail";
-import Category from "./components/Category";
-import CheckoutPage from "./components/CheckoutPage";
-import OrderSuccess from "./components/OrderSuccess";
+import App from "./App.jsx";
+// import Shop from './components/Shop.jsx';
+// import Login from './components/Login.jsx';
+import SignUp from './components/SignUp.jsx';
+import ErrorPage from './components/ErrorPage.jsx';
+import ProductDetail from "./components/ProductDetail.jsx";
+import Category from "./components/Category.jsx";
+import CheckoutPage from "./components/CheckoutPage.jsx";
+import OrderSuccess from "./components/OrderSuccess.jsx";
 
 const routes = [
   {
