@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ShoppingCart, Menu, X } from 'lucide-react';
 import { Link, useNavigate, NavLink } from "react-router-dom";
 import products from '../Products/Products.js';
@@ -11,6 +11,32 @@ function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navigate = useNavigate();
   const [cartOpen, setCartOpen] = useState(false);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  useEffect(() => {
+    if (searchTerm.trim() === '') {
+      setFilteredProducts([]);
+      setShowDropdown(false);
+    } else {
+      const matches = products.filter((product) =>
+        product.name.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+      setFilteredProducts(matches);
+      setShowDropdown(true);
+    }
+  }, [searchTerm]);
+
+  const handleInputChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
+  const clearSearch = () => {
+    setSearchTerm('');
+    setShowDropdown(false);
+  };
+
 
 
   const categories = [...new Set(products.map(product => product.category))];
@@ -49,7 +75,7 @@ const { cartItems } = useCart();
           <select
             onChange={handleCategoryChange}
             defaultValue=""
-            className="border border-gray-300 rounded-md px-3 py-1 bg-white text-gray-700 hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400"
+            className="border border-gray-300 rounded-md px-3 py-1 bg-white text-gray-700 hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 cursor-pointer"
           >
             <option value="" disabled>Category</option>
             {categories.map(category => (
@@ -61,14 +87,47 @@ const { cartItems } = useCart();
         </div>
 
         <div className="flex items-center space-x-3">
-        <input
-  type="text"
-  placeholder="Search items..."
-  className="hidden lg:block px-3 py-1.5 border border-gray-300 rounded-full focus:ring-2 focus:ring-blue-400 focus:border-transparent outline-none transition"
-/>
+        <div className="relative w-full max-w-xs">
+          
+      <input
+        type="text"
+        placeholder="Search items..."
+        value={searchTerm}
+        onChange={handleInputChange}
+        className="w-auto px-3 py-1.5 border border-gray-300 rounded-full focus:ring-2 focus:ring-blue-400 focus:border-transparent outline-none transition"
+      />
+        {showDropdown && (
+  <div className="absolute z-50 mt-2 w-full bg-white border border-gray-200 rounded-lg shadow-lg max-h-60 overflow-y-auto">
+    {filteredProducts.length > 0 ? (
+      filteredProducts.map((product) => (
+        <Link
+          to={`/product/${product.id}`}
+          key={product.id}
+          onClick={clearSearch}
+          className="flex items-center justify-between px-4 py-2 hover:bg-gray-100 transition"
+        >
+          <div className="flex items-center gap-3">
+            <img
+              src={product.image}
+              alt={product.name}
+              className="w-8 h-8 object-cover rounded"
+            />
+            <span className="text-sm text-gray-800">{product.name}</span>
+          </div>
+          <span className="text-sm text-gray-600 whitespace-nowrap">৳{product.price}</span>
+        </Link>
+      ))
+    ) : (
+      <p className="px-4 py-2 text-sm text-gray-500">No results found.</p>
+    )}
+  </div>
+)}
 
-          <Link to="/login" className="text-sm font-medium text-gray-700 hover:text-blue-600 transition">Login</Link>
-          <Link to="/signUp" className="text-sm font-medium bg-blue-600 text-white px-4 py-1.5 rounded-full hover:bg-blue-700 transition">Sign Up</Link>
+
+    </div>
+
+          <Link to="/login" className="text-md font-medium text-gray-700 hover:text-blue-600 transition">Login</Link>
+          <Link to="/signUp" className="text-md w-full font-medium bg-blue-600 text-white px-4 py-1.5 rounded-full hover:bg-blue-700 transition">Sign Up</Link>
           <button
   onClick={() => setCartOpen(true)}
   className="relative text-gray-700 hover:text-blue-600 transition cursor-pointer"
